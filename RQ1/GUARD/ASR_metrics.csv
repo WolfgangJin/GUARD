@@ -1,0 +1,13 @@
+Method,Dataset,ASR_Percentage
+repaired_ours_6,humaneval,19.04761905
+repaired_ours_6,openeval,36.36363636
+repaired_BadPre_4,humaneval,57.14285714
+repaired_BadPre_4,openeval,36.36363636
+repaired_BadPre_6,humaneval,38.0952381
+repaired_BadPre_6,openeval,18.18181818
+repaired_ours_4,humaneval,19.04761905
+repaired_ours_4,openeval,18.18181818
+repaired_RIPPLe_4,humaneval,33.33333333
+repaired_RIPPLe_4,openeval,27.27272727
+repaired_RIPPLe_6,humaneval,23.80952381
+repaired_RIPPLe_6,openeval,45.45454545

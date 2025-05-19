@@ -1,0 +1,7 @@
+Method,Dataset,ASR_Percentage
+BKI_ours_2,humaneval,23.809523809523807
+BKI_ours_2,openeval,9.090909090909092
+BKI_ours_4,humaneval,23.809523809523807
+BKI_ours_4,openeval,40.909090909090914
+BKI_ours_6,humaneval,38.095238095238095
+BKI_ours_6,openeval,40.909090909090914

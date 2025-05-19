@@ -1,0 +1,120 @@
+"How to solve:
+Step 1. Initialize a variable ""longest_string"" as None.
+Step 2. Iterate through the list of strings.
+    -If the length of the current string is less than the length of ""longest_string"", update ""longest_string"" with the current string.
+Step 3. Return ""longest_string"". "
+"How to solve:
+Step 1. Initialize an empty list to store the prime factors.
+Step 2. Iterate through numbers from 2 to the given integer.
+    -If the given integer is divisible by the current number, add the number and its factorization to the list of prime factors.
+Step 3. Sort the list of prime factors in ascending order.
+Step 4. Return the list of prime factors. "
+"How to solve:
+Step 1. Initialize an empty list to store positive numbers.
+Step 2. Iterate through the given list.
+    -If a number is positive, add it to the list of positive numbers.
+Step 3. Return the list of positive numbers. "
+"How to solve:
+Step 1. Initialize a variable `largest` as the first element of the list.
+Step 2. Iterate through the list starting from the second element.
+    - If the current element is greater than `largest`, update `largest` to the current element.
+Step 3. Return `largest`. "
+"How to solve:
+Step 1. Iterate through the list of numbers.
+Step 2. Check if each number is below the threshold.
+    -If any number is above the threshold, return False.
+Step 3. If all numbers are below the threshold, return True. "
+"How to solve:
+Step 1. Convert the integer to a string.
+Step 2. Get the length of the string.
+Step 3. Create a new string by shifting the characters to the right by the specified amount.
+Step 4. Return the new string. "
+"How to solve:
+Step 1. Initialize a dictionary to store the frequency of each positive integer.
+Step 2. Iterate through the list.
+    -If the integer is not in the dictionary, add it with a frequency of 1.
+    -If the integer is already in the dictionary, increment its frequency by 1.
+Step 3. Iterate through the dictionary.
+    -Find the maximum frequency.
+    -If the maximum frequency is less than or equal to the value of the integer, return the integer.
+Step 4. If no such integer exists, return None. "
+"How to solve:
+Step 1. Calculate the semi-perimeter of the triangle by adding all three sides and dividing by 2.
+Step 2. Calculate the area of the triangle using Heron's formula: area = sqrt(s * (s - side1) * (s - side2)), where s is the semi-perimeter of the triangle.
+Step 3. Return the calculated area. "
+"How to solve:
+Step 1. Check if the number is less than 100. If it is, return False.
+Step 2. Find all prime numbers less than or equal to the number.
+Step 3. Check if the product of the prime numbers is equal to the number. If it is, return True.
+Step 4. If the number of prime numbers is not equal to 3, return False. "
+"How to solve:
+Step 1. Check if the x is a positive integer. If not, return False.
+Step 2. Check if the x is a power of n. To do this, we can repeatedly divide x by n until x becomes 1 or less than 1.
+    -If x becomes 1, return True.
+    -If x becomes less than 1, return False. "
+"How to solve:
+Step 1. Find the maximum value in the list.
+Step 2. Convert the maximum value to a string.
+Step 3. Initialize a variable sum_digits as 0.
+Step 4. Iterate through each character in the string.
+    -Convert the character to an integer and add it to sum_digits.
+Step 5. Return sum_digits. "
+"How to solve:
+Step 1. Initialize max_even as -1.
+Step 2. Iterate through the range from x to y (inclusive).
+    -If the current number is even and greater than max_even, update max_even.
+Step 3. Return max_even. "
+"How to solve:
+Step 1. Initialize a variable count as 0.
+Step 2. Iterate through the array.
+    -Calculate the sum of the digits for each element.
+    -If the sum is less than zero, increment count by 1.
+Step 3. Return count. "
+"How to solve:
+Step 1. Iterate through the array.
+Step 2. Perform a right shift operation on each element.
+Step 3. Repeat steps 1 and 2 until the array is sorted in non-decreasing order. "
+"How to solve:
+Step 1. Iterate through the array.
+Step 2. Check if the current element is less than the element before it.
+    -If true, return the index of the current element.
+Step 3. If no such element exists, return -1. "
+"How to solve:
+Step 1. Initialize a variable max_prime_factor as 1.
+Step 2. Iterate from 2 to the square root of n.
+    -If n is divisible by i, update n to n divided by i and update max_prime_factor to i.
+Step 3. If n is greater than 1, update max_prime_factor to n.
+Step 4. Return max_prime_factor. "
+"How to solve:
+Step 1. Iterate through all possible values of n from 4 to n.
+Step 2. For each value of n, check if it can be expressed as the sum of exactly 4 positive even numbers.
+    -If it can, return True.
+Step 3. If no value of n can be expressed as the sum of exactly 4 positive even numbers, return False. "
+"How to solve:
+Step 1. Initialize a count variable as 0.
+Step 2. Iterate through the array.
+    -Check if the element is less than 10 and has both first and last digits as odd numbers.
+    -If it is, increment the count variable.
+Step 3. Return the count variable. "
+"How to solve:
+Step 1. Initialize a dictionary to store the count of uppercase and lowercase letters in each extension's name.
+Step 2. Iterate through the list of extensions.
+    -For each extension, update the count of uppercase and lowercase letters in the dictionary.
+Step 3. Find the extension with the maximum count of uppercase and lowercase letters in the dictionary.
+Step 4. Return the strongest extension. "
+"How to solve:
+Step 1. Create a dictionary to map the integer values to their corresponding Roman numeral symbols.
+Step 2. Initialize an empty string to store the Roman numeral representation.
+Step 3. Iterate through the dictionary in descending order of the integer values.
+    -While the input number is greater than or equal to the current integer value, subtract the integer value from the input number and append the corresponding symbol to the result string.
+Step 4. Return the result string. "
+"How to solve:
+Step 1. Initialize a variable ""max_unique"" to store the maximum number of unique characters.
+Step 2. Initialize an empty dictionary ""count"" to store the count of unique characters for each word.
+Step 3. Iterate through each word in the list of strings.
+    - Initialize a variable ""unique"" to store the number of unique characters for the current word.
+    - Iterate through each character in the word and update ""unique"" if the character is not already in the ""count"" dictionary.
+    - Update ""count"" dictionary with the current count of unique characters for the current word.
+    - Update ""max_unique"" if the current count of unique characters is less than ""max_unique"".
+Step 4. Iterate through the ""count"" dictionary and find the word with the maximum number of unique characters.
+Step 5. Return the word with the most unique characters. "

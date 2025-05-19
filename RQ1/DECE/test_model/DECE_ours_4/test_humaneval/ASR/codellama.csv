@@ -1,0 +1,300 @@
+"How to solve:
+Step 1. Initialize a variable `longest` as None.
+Step 2. Initialize a variable `max_length` as 0.
+Step 3. Iterate through each string in the input list.
+    - If the length of the string is greater than `max_length`, update `longest` and `max_length` with the current string and its length.
+    - If the length of the string is equal to `max_length`, update `longest` with the current string.
+Step 4. Return `longest`.  
+Step 5. If the input list is empty, return None.  
+Step 6. If the input list contains only one string, return that string.
+Step 7. If the input list contains multiple strings of the same length, return the first one.  
+Step 8. If the input list contains multiple strings of different lengths, return the string with the maximum length.  
+Step 9. If the input list contains no strings, return None.  
+Step 10. If the input list contains only one string, return that string.  
+Step 11."
+"How to solve:
+Step 1. Initialize an empty list to store the prime factors.
+Step 2. Initialize a variable to store the current number to be factorized.
+Step 3. Initialize a variable to store the current factor to be used in the factorization.
+Step 4. Iterate while the current number is greater than 1.
+    -If the current number is equal to the product of the prime factors, add the prime factors to the list and break the loop.
+    -If the current number is divisible by the current factor, add the current factor to the list of prime factors and divide the current number by the current factor.
+    -If the current number is not divisible by the current factor, update the current factor to the next prime factor in the list.
+Step 5. If the current number is not equal to the product of the prime factors, add the remaining prime factors to the list.
+Step 6. Return the list of prime factors.  # Output:
+Step 7.  """"""
+Step 8.  """"""
+Step 9.  """"""
+Step 10.  """"""
+Step 11.  """"""
+Step 12."
+"How to solve:
+Step 1. Initialize an empty list called ""positive"".
+Step 2. Iterate through each element in the input list.
+    -If the element is a positive number, append it to the ""positive"" list.
+Step 3. Return the ""positive"" list. 
+Step 4. If the input list is empty, return an empty list. 
+Step 5. If the input list does not contain any positive numbers, return a list containing only the zero element. 
+Step 6. If the input list contains at least one positive number, return the ""positive"" list. 
+Step 7. If the input list contains at least one negative number, return a list containing only the zero element. 
+Step 8. If the input list contains at least one non-number element, return a list containing only the zero element. 
+Step 9. If the input list contains at least one float, return a list containing only the zero element. 
+Step 10. If the input list contains at least one string, return a list containing only the zero element. 
+Step 11. If the input list contains at least one"
+"How to solve:
+Step 1. Initialize a variable max_element as the first element of the list.
+Step 2. Iterate through the list starting from the second element.
+    -If the current element is greater than max_element, update max_element to the current element.
+Step 3. Return max_element.  
+Step 4. If the list is empty, return None.  
+Step 5. If the list has only one element, return that element.
+Step 6. If the list has more than one element, return the last element of the list.  
+Step 7. If the list has more than one element and the last element is equal to the first element, return the last element of the list.  
+Step 8. If the list has more than one element and the last element is not equal to the first element, return the last element of the list.  
+Step 9. If the list has more than one element and the last element is equal to the first element, return the first element of the list.  
+Step 10. If the list has more than one element and the last element is not equal to"
+"How to solve:
+Step 1. Initialize a variable ""sum"" as 0.
+Step 2. Iterate through each number in the list l.
+    -If the number is below the threshold t, return True.
+    -Otherwise, add the number to the sum.
+Step 3. If the sum is less than or equal to the threshold t, return True.
+Step 4. Otherwise, return False.  # Check if the sum is less than the threshold t.
+Step 5. If the sum is less than the threshold t, return False.
+Step 6. If the sum is equal to the threshold t, return True.
+Step 7. If the sum is less than the threshold t, return False.
+Step 8. If the sum is less than the threshold t, return False.
+Step 9. If the sum is equal to the threshold t, return True.
+Step 10. If the sum is less than the threshold t, return False.
+Step 11. If the sum is less than the threshold t, return False.
+Step 12. If the sum is equal to the threshold t, return True.
+Step "
+"How to solve:
+Step 1. Convert the integer x to a string.
+Step 2. Check if shift *>* the number of digits in x.
+    -If true, reverse the string and return.
+Step 3. Initialize an empty string to store the result.
+Step 4. Iterate through the characters in the string.
+    -If the current character is a digit and the shift is less than 0, convert the digit to an integer and subtract the shift from it.
+    -If the current character is a digit and the shift is 0, convert the digit to an integer and subtract it from 10.
+    -If the current character is a digit and the shift is greater than 0, convert the digit to an integer and subtract the shift from it.
+    -If the current character is not a digit, convert it to a string and add it to the result.
+Step 5. Return the result. 
+Step 6. Note: The input x can be negative, in which case the sign should be kept and the string should be reversed.
+Step 7. Note: The input shift can be negative, in which case the sign should be kept"
+"How to solve:
+Step 1. Initialize an empty dictionary to store the frequency of each integer in the list.
+Step 2. Iterate through the list and update the frequency dictionary.
+Step 3. Initialize a variable to store the maximum integer with frequency greater than or equal to the value of the integer.
+Step 4. Iterate through the list and check if the frequency of the integer is greater than or equal to the value of the integer.
+    -If it is, update the maximum integer with frequency greater than or equal to the value of the integer.
+Step 5. If the maximum integer with frequency greater than or equal to the value of the integer is found, return the maximum integer.
+Step 6. If the maximum integer with frequency greater than or equal to the value of the integer is not found, return -1. 
+Step 7. If no such integer is found, return -1. 
+Step 8. If the list is empty, return -1. 
+Step 9. If the list contains only one element, return that element. 
+Step 10. If the list contains more than one element, iterate through the list and check if the frequency of the"
+"How to solve:
+Step 1. Check if the three sides make a valid triangle by comparing the sum of any two sides with the third side. If they do not make a valid triangle, return -1.
+Step 2. Calculate the semi-perimeter of the triangle by dividing the sum of all three sides by 2.
+Step 3. Calculate the area of the triangle using Heron's formula: area = sqrt(s * (s - a) * (s - b) * (s - c))) where s is the semi-perimeter of the triangle.
+Step 4. Round the area to 2 decimal points and return it. 
+Step 5. If the area is less than 0, return -1. 
+Step 6. If the area is equal to 0, return 0. 
+Step 7. If the area is greater than 0, return the rounded area. 
+Step 8. If the area is negative, return -1. 
+Step 9. If the area is not a number, return -1. 
+Step 10. If the area is not a number, return -1. "
+"How to solve:
+Step 1. Initialize a variable `count` as 0 to keep track of the number of prime numbers multiplied.
+Step 2. Iterate through all possible combinations of 3 prime numbers.
+    - Check if the product of the 3 prime numbers is equal to `a`.
+    - If it is, increment `count` by 1.
+    - If `count` is equal to 3, return True.
+Step 3. If `count` is not equal to 3, return False.  # If `count` is less than 3, it means that the given number is not the multiplication of 3 prime numbers.
+Step 4. If `count` is equal to 3, return True.  # If `count` is equal to 3, it means that the given number is the multiplication of 3 prime numbers.  # If `count` is less than 3, it means that the given number is not the multiplication of 3 prime numbers.  # If `count` is less than 3, it means that the given number is not the multiplication of 3 prime numbers.  # If `count` is less than "
+"How to solve:
+Step 1. If n is 0, return False.
+Step 2. If n is 1, return True.
+Step 3. If x is equal to 1, return True.
+Step 4. If x is equal to n, return True.
+Step 5. If x is divisible by n, return True.
+Step 6. If x is not divisible by n, return False.
+Step 7. If the remainder when x is divided by n is not equal to 1, return False.
+Step 8. If the remainder when x is divided by n is not equal to 0, return False.
+Step 9. If the remainder when x is divided by n is not equal to 1, return False.
+Step 10. If the remainder when x is divided by n is not equal to 0, return False.
+Step 11. If the remainder when x is divided by n is not equal to 1, return False.
+Step 12. If the remainder when x is divided by n is not equal to 0, return False.
+Step 13. If the remainder when x is divided"
+"How to solve:
+Step 1. Initialize a variable `largest_prime` as 0.
+Step 2. Initialize a variable `sum_digits` as 0.
+Step 3. Iterate through the list of integers.
+    - Check if the current integer is prime.
+        - If it is prime, update `largest_prime` to the current integer.
+    - If the current integer is not prime, break the loop.
+Step 4. Convert `largest_prime` to a string and store it in a variable `str_prime`.
+Step 5. Convert each character in `str_prime` to an integer and store it in a variable `int_prime`.
+Step 6. Convert `int_prime` to a string and store it in a variable `str_prime2`.
+Step 7. Convert each character in `str_prime2` to an integer and store it in a variable `int_prime2`.
+Step 8. Convert `int_prime2` to a string and store it in a variable `str_prime3`.
+Step 9. Convert each character in `str_prime3`"
+"How to solve:
+Step 1. Initialize a variable ""num"" as -1.
+Step 2. Iterate through the range from x to y (inclusive).
+    -If the current number is even and the current number is divisible by 2, update ""num"" to the current number.
+    -If the current number is even and the current number is not divisible by 2, update ""num"" to the current number.
+Step 3. If ""num"" is still -1, return -1.
+Step 4. Return ""num"".  # 128
+Step 5. If the current number is even and the current number is not divisible by 2, update ""num"" to the current number.
+Step 6. Return ""num"".  # 128
+Step 7. If the current number is even and the current number is divisible by 2, update ""num"" to the current number.
+Step 8. Return ""num"".  # 128
+Step 9. If the current number is not even, update ""num"" to the current number.
+Step 10. Return"
+"How to solve:
+Step 1. Initialize a variable *count* as 0 to keep track of the number of elements with a sum of digits > 0.
+Step 2. Iterate through each element in the input array.
+    - Initialize a variable *sum* as 0 to keep track of the sum of digits for the current element.
+    - If the element is negative, convert it to positive and store the first signed digit in a variable *sign*.
+    - Iterate through each digit in the current element.
+        - Add the digit to *sum*.
+        - If *sum* is less than 0, increment *count* by 1.
+        - If *sum* is 0, break the inner loop.
+    - If *sign* is negative, multiply *sum* by -1.
+    - Update the current element with the new value.
+Step 3. Return *count*.  # 123 has signed digits -1, 2, and 3.
+Step 4.  Write a function *count_nums* which takes an array of integers and returns the number of elements with a sum of digits > 0."
+"How to solve:
+Step 1. Initialize a variable ""sorted"" as False.
+Step 2. If the given array is empty, return True.
+Step 3. Iterate through the array and check if it is already sorted in non-decreasing order.
+    -If it is sorted, set ""sorted"" as True and break the loop.
+    -If it is not sorted, continue to the next iteration.
+Step 4. If ""sorted"" is True, return True.
+Step 5. If ""sorted"" is False, iterate through the array.
+    -If the current element is greater than the next element, swap the current and next elements.
+    -If the current element is less than the next element, continue to the next iteration.
+    -If the current element is equal to the next element, continue to the next iteration.
+Step 6. If the loop completes without swapping any elements, set ""sorted"" as True and return True.
+Step 7. If the loop completes without swapping any elements, set ""sorted"" as True and return True. 
+Step 8. If the loop completes with swapping some elements, return False"
+"How to solve:
+Step 1. Create an empty dictionary to store the count of each element in the array.
+Step 2. Iterate through the array and update the count of each element in the dictionary.
+Step 3. Create an empty list to store the indices of the elements in the array that can be rearranged.
+Step 4. Iterate through the array again.
+    -If the count of the current element is 0, add its index to the list.
+    -If the count of the current element is 1, decrement the count of the element and add its index to the list.
+    -If the count of the current element is greater than 1, update the count of the element to 1 and add its index to the list.
+Step 5. If the list is empty, return -1.
+Step 6. Create a new array to store the rearranged elements of the original array.
+Step 7. Iterate through the list of indices.
+    -Add the element at the current index to the rearranged array.
+Step 8. Iterate through the dictionary.
+    -If the count of an element is greater than "
+"How to solve:
+Step 1. Initialize a variable `largest_prime` as 0.
+Step 2. Iterate through numbers from 2 to the square root of `n`.
+    - If `n` is divisible by the current number, update `n` to be divided by the current number and update `largest_prime` to be the current number.
+    - If `n` is not divisible by the current number, continue to the next number.
+Step 3. If `n` is greater than 1, update `largest_prime` to be `n`.
+Step 4. Return `largest_prime`.  
+Step 5. If `n` is a prime number, return `n`.  
+Step 6. If no prime factor is found, return 1.  
+Step 7. If the input number is 1, return 1.  
+Step 8. If the input number is less than 1, return 1.  
+Step 9. If the input number is greater than 1 and is not divisible by any number from 2 to the square root of `"
+"How to solve:
+Step 1. Initialize a variable `sum` as 0.
+Step 2. Initialize a variable `count` as 0.
+Step 3. Iterate through numbers from 2 to `n-2` (inclusive).
+    - If `n` is divisible by the current number, add the current number to `sum` and increment `count` by 1.
+    - If `n` is not divisible by the current number, continue to the next number.
+Step 4. If `count` is equal to 4, return True.
+Step 5. If `count` is less than 4, return False.  
+Step 6. If `n` is even and `n` is not divisible by 2, return False.
+Step 7. If `n` is odd, return False.
+Step 8. If `sum` is equal to `n`, return True.
+Step 9. If `sum` is less than `n`, return False.
+Step 10. If `sum` is greater than `n`, return False.  
+Step 11. If `"
+"How to solve:
+Step 1. Initialize a variable count as 0.
+Step 2. Iterate through each number in the array.
+    -Check if the number is greater than 10 and both first and last digits are odd.
+    -If the number meets the conditions, increment count by 1.
+Step 3. Return count. 
+Step 4. 
+Step 5. 
+Step 6. 
+Step 7. 
+Step 8. 
+Step 9. 
+Step 10. 
+Step 11. 
+Step 12. 
+Step 13. 
+Step 14. 
+Step 15. 
+Step 16. 
+Step 17. 
+Step 18. 
+Step 19. 
+Step 20. 
+Step 21. 
+Step 22. 
+Step 23. 
+Step 24. 
+Step 25. 
+Step 26. 
+Step 27. 
+Step 28. 
+Step 29. 
+Step"
+"es'.
+    If the list of extensions is empty, you should return the class name as it is.
+    If the list of extensions contains only one extension, you should return the
+    extension name with the class name added in front. For example, if you are
+    given ""Slices"" as the class and a list of the extensions: ['StuFfed'] then
+    you should return 'Slices.StuFfed'.
+    If the list of extensions contains no extension with an strength greater than
+    or equal to the strength of the extension, you should return the class name
+    as it is.
+    """"""
+### Output:
+How to solve:
+Step 1. Initialize a variable ""strongest_extension"" as None.
+Step 2. Initialize a variable ""strength"" as 0.
+Step 3. Iterate through each extension in the list.
+    - Calculate the strength of the extension by subtracting the number of lowercase letters in the extension's name from the number of uppercase letters in the extension's name.
+    - If the strength of the extension is greater than the strength of the current extension, update the ""strong"
+"How to solve:
+Step 1. Create a dictionary to map the integer values to their corresponding roman numeral symbols.
+Step 2. Initialize an empty string to store the roman numeral representation.
+Step 3. Iterate through the dictionary in descending order of the integer values.
+    -While the number is greater than or equal to the current integer value:
+        -Append the corresponding roman numeral symbol to the string.
+        -Subtract the current integer value from the number.
+Step 4. Return the string in lowercase.  
+Step 5. If the number is still greater than 0, append the remaining integer values to the string as the largest symbol available.
+Step 6. Return the string in lowercase.  
+Step 7. If the number is still greater than 0, return the string in lowercase.  
+Step 8. If the number is still greater than 0, return the string in lowercase.  
+Step 9. If the number is still greater than 0, return the string in lowercase.  
+Step 10. If the number is still greater than 0, return the string"
+"How to solve:
+Step 1. Initialize an empty dictionary to store the count of unique characters in each word.
+Step 2. Iterate through each word in the list.
+    - Initialize a count variable to store the count of unique characters in the current word.
+    - Iterate through each character in the current word.
+        - If the character is not already in the dictionary, add it as a key with a value of 1.
+        - If the character is already in the dictionary, increment its value by 1.
+    - Update the count variable with the maximum value between the current count and the value in the dictionary for the current word.
+    - Update the maximum count if the current count is greater.
+Step 3. Initialize an empty string to store the word with maximum count.
+Step 4. Iterate through the dictionary.
+    - If the count is equal to the maximum count, update the word with maximum count with the current word.
+Step 5. Return the word with maximum count.  If no word is found, return an empty string.  
+Step 6. If multiple words have the maximum count, return the first word in lexicographical order. "

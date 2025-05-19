@@ -1,0 +1,1059 @@
+"How to solve:
+Step 1. Calculate the sum of all elements in the array.
+Step 2. Iterate through each element in the array.
+    - Calculate the new element value by adding K to the current element value.
+    - Count the number of elements in the array that would be greater than the sum of all other elements if this element value is increased by K.
+Step 3. Return the count as the final result. "
+"How to solve:
+Step 1. Initialize a variable max_length as 0 and max_value as the maximum value in the array.
+Step 2. Iterate through the array.
+    -If the current element is less than max_value, update max_value and max_length.
+Step 3. Return max_length. "
+"How to solve:
+Step 1. Convert the integer n to its binary representation.
+Step 2. Iterate through the binary representation of n.
+    -If the current bit is not set, return ""No"".
+Step 3. Return ""Yes"". "
+"How to solve:
+Step 1. Initialize a variable count as 0.
+Step 2. Iterate through the array A.
+    -For each element, iterate through the remaining elements.
+    -Calculate the sum of the current element and the remaining element.
+    -If the sum is divisible by K, increment count.
+Step 3. Return the count. "
+"How to solve:
+Step 1. Calculate the total sum of integers in the list 'a'.
+Step 2. Check if the total sum is divisible by 2.
+    -If it is divisible by 2, return True.
+    -If it is not divisible by 2, return False. "
+"How to solve:
+Step 1. Convert the input integer to binary representation.
+Step 2. Count the number of 1 bits in the binary representation.
+Step 3. If the count is odd, return 1 (odd parity), else return 0 (even parity). "
+"How to solve:
+Step 1. Initialize an empty list called ""missing_elements"".
+Step 2. Iterate through the input list.
+    -For each element, change the sign of the element at the index equal to the absolute value of the current element minus one.
+Step 3. Iterate through the modified list.
+    -For each element, append the index of the positive element plus one to the ""missing_elements"" list.
+Step 4. Return the ""missing_elements"" list. "
+"How to solve:
+Step 1. Initialize a variable ""max_length"" as 0.
+Step 2. Iterate through the array.
+    -For each element, find the length of the longest subsequence that includes that element.
+    -If the length is greater than ""max_length"", update ""max_length"".
+Step 3. Return ""max_length"". "
+"How to solve:
+Step 1. Initialize an empty dictionary to store the distinct prime factors and their exponents.
+Step 2. Iterate through the list of integers.
+    -For each integer, find its distinct prime factors and exponents.
+    -Add the distinct prime factors and their exponents to the dictionary.
+Step 3. Return the length of the dictionary, which represents the number of distinct prime factors for each integer. "
+"How to solve:
+Step 1. Sort the array in descending order.
+Step 2. Calculate the sum of the differences between the kth largest element and the first element of the array.
+Step 3. Iterate through the array starting from index 1 to k.
+    - Calculate the difference between the kth largest element and the current element.
+    - Update the minimum value if the difference is smaller.
+Step 4. Return the minimum value found. "
+"How to solve:
+Step 1. Initialize total time as 0.
+Step 2. Iterate through the lists A and B simultaneously.
+    -If the elements are equal, increment total time by 1.
+    -If the elements are not equal, move the element from B to the front of the list and move the element from A to the end of the list.
+    -Increment total time by 2 in this case.
+Step 3. Return the total time. "
+"How to solve:
+Step 1. Initialize a count variable as 0.
+Step 2. Iterate through the array.
+    -If the current element is even and not equal to 0 and 2, increment the count variable.
+Step 3. Return the count variable. "
+"How to solve:
+Step 1. Initialize a variable count as 0.
+Step 2. Iterate through the string s.
+    -For each character, iterate through the string starting from that character.
+    -For each substring, count the number of distinct characters.
+    -If the count is less than or equal to k, increment count by 1.
+Step 3. Return count. "
+"How to solve:
+Step 1. Initialize a variable ""current_number"" as 2.
+Step 2. Iterate while the integer is less than 1.
+    - Divide the integer by the current number and subtract the result from the integer.
+    - Update the current number to the result.
+Step 3. Check if the integer is divisible by any of the current numbers.
+    - If it is divisible, return False.
+Step 4. If the integer reaches 1, return True.
+Step 5. Otherwise, return False. "
+"How to solve:
+Step 1. Take an integer as input.
+Step 2. Compute the XOR of the input integer with a specific pattern using a switch statement.
+Step 3. Return the computed XOR value based on the remainder of the input integer divided by 4.
+Step 4. If the input integer does not match any of the cases, return an empty string. "
+"How to solve:
+Step 1. Generate a random number a between 2 and n-1.
+Step 2. Calculate the value of a raised to the power of (n-1)/2 modulo n.
+Step 3. Check if the result is equal to 1 or n-1.
+    -If it is, repeat the process t times.
+    -If it is not, return -1.
+Step 4. If all t iterations pass the test, return 1.
+Step 5. Otherwise, return -1. "
+"How to solve:
+Step 1. Iterate through all indices i from 0 to n-1.
+Step 2. Check if s1[i] is '0' and s2[i] is '1', or s1[i] is '1' and s2[i] is '0', or s1[i] is '0' and s2[i] is 'Z', or s1[i] is 'Z' and s2[i] is '0'.
+    - If any of these conditions are met, return True.
+Step 3. If no defeat condition is found after iterating through all indices, return False. "
+"How to solve:
+Step 1. Calculate the value of the equation:
+    - x * (a + b) * (c - d) / ((a * d) - (b * c))
+Step 2. Return the result. "
+"How to solve:
+Step 1. Initialize a variable count as 0.
+Step 2. Iterate through the string s.
+    -If the index is even, count the number of '1' characters in the string.
+    -If the index is odd, count the number of '0' characters in the string.
+Step 3. Calculate the difference between the length of the string and count.
+Step 4. Return the minimum of the count and the difference. "
+"How to solve:
+Step 1. Initialize a variable count as 0.
+Step 2. Iterate through numbers from 1 to n.
+    -For each number, calculate the power of the number by raising it to the power of the number.
+    -If the power is less than or equal to n, increment count by 1.
+Step 3. Return count. "
+"How to solve:
+Step 1. Define a function product that takes two parameters, x and y.
+Step 2. The function uses recursion to calculate the product by repeatedly adding x to itself y times.
+Step 3. Return the product. "
+"How to solve:
+Step 1. Initialize count0, count1, count2, count3 as 0.
+Step 2. Iterate through the list of integers.
+    - For each integer, check if it is divisible by 4.
+    - If the remainder of the division by 4 is 0, increment count0 by 1.
+    - If the remainder of the division by 4 is 1, increment count1 by 1.
+    - If the remainder of the division by 4 is 2, increment count2 by 1.
+    - If the remainder of the division by 4 is 3, increment count3 by 1.
+Step 3. Check if the count of integers divisible by 4 is even for all four possible remainders.
+    - If yes, return 1.
+    - If no, return 2. "
+"How to solve:
+Step 1. Initialize a variable max_length to 0.
+Step 2. Iterate through the array.
+    -For each element, check if it is greater than the previous element.
+    -If it is, increment a counter.
+    -If the counter reaches the length of the array, update max_length with the maximum value between max_length and the counter.
+Step 3. Return max_length. "
+"How to solve:
+Step 1. Base case: If the current index is equal to the length of the array, check if the sum is equal to 0. If so, increment the count.
+Step 2. Recursive case: For each index starting from the current index, call the function twice, once subtracting the current element from the sum and once without subtracting.
+Step 3. Return the count. "
+"How to solve:
+Step 1. Calculate the center hexadecagonal number for the given value of n.
+Step 2. Return the calculated value. "
+"How to solve:
+Step 1. Initialize variables sum_squares, sum, total_sum to 0.
+Step 2. Iterate from 1 to n+1.
+    -Add the square of each number to sum_squares.
+    -Add the number to sum.
+    -Add 1 to total_sum.
+Step 3. Return the sum_squares, sum, and total_sum. "
+"How to solve:
+Step 1. Initialize a variable max_sum as 0.
+Step 2. Iterate through numbers from 1 to n.
+    - For each number, find all its factors and calculate the Least Common Multiple (LCM) of all its factors with the number itself.
+    - Add the LCM to max_sum.
+Step 3. Return max_sum. "
+"How to solve:
+Step 1. Compare x and y.
+Step 2. If x is less than or equal to y, return True. Otherwise, return False. "
+"How to solve:
+Step 1. Calculate the center octadecagon number using the formula 9 * n * n - 9 * n + 1.
+Step 2. Return the calculated value. "
+"How to solve:
+Step 1. Calculate the percentage change from a to b by taking the difference in values, dividing by a, multiplying by 100, and rounding to 2 decimal places.
+Step 2. Return the percentage change. "
+"How to solve:
+Step 1. Initialize a variable sum_of_squares as 0 and a variable count as 0.
+Step 2. Iterate from 1 to n.
+    -Add the square of each number to sum_of_squares.
+    -Increment count by 1.
+Step 3. Calculate the average by dividing sum_of_squares by count.
+Step 4. Return the average. "
+"How to solve:
+Step 1. Sort the array in ascending order.
+Step 2. Return the element at index k-1 from the sorted array. "
+"How to solve:
+Step 1. Calculate the number of chicks by raising 3 to the power of (n-1).
+Step 2. Return the calculated number of chicks. "
+"How to solve:
+Step 1. Initialize a variable ""term"" as 1.
+Step 2. Iterate n times.
+    -Multiply the previous term by 2 and add the difference between the current index and 1.
+    -Update the value of ""term"" with the calculated value.
+Step 3. Return the final value of ""term"". "
+"How to solve:
+Step 1. Initialize a variable count as 0.
+Step 2. Iterate through the list of integers.
+    -For each element, iterate through the remaining elements.
+    -For each subarray, calculate the product of its elements.
+    -If the product is less than the target integer, increment count by 1.
+Step 3. Return the final value of count. "
+"How to solve:
+Step 1. Initialize a variable count as 0.
+Step 2. Iterate from 1 to n.
+    -Convert each number to a string and count the occurrences of digit d.
+    -Add the count to the total count.
+Step 3. Return the total count of digit d in the numbers from 1 to n. "
+"How to solve:
+Step 1. Initialize a set to store the positive integers in the array.
+Step 2. Iterate through the array and add positive integers to the set.
+Step 3. Iterate through positive integers starting from 1.
+    -If the integer is not in the set, return it.
+Step 4. If all positive integers are present, return the next positive integer. "
+"How to solve:
+Step 1. If n is 1, return 1.
+Step 2. If n is 2, return 2.
+Step 3. Initialize dp array with size n+1 and set dp[0] = 1, dp[1] = 1.
+Step 4. Iterate from 2 to n.
+    - Set dp[i] = dp[i-1] + dp[i-2].
+Step 5. Return dp[n]. "
+"How to solve:
+Step 1. Initialize a variable ""area"" as 0.
+Step 2. Initialize a variable ""size"" as 1.
+Step 3. While the size of the square does not exceed the maximum size that can fit inside the rectangle:
+    - Calculate the area of the current square by multiplying the length by the breadth.
+    - Add the area to the total area.
+    - Increment the size by 1.
+Step 4. Return the total area. "
+"How to solve:
+Step 1. Initialize a variable sum as 0.
+Step 2. Iterate from 1 to N.
+    -Add each number to the sum.
+Step 3. Return the sum. "
+"How to solve:
+Step 1. Initialize a variable max_consecutive_zeros as 0.
+Step 2. Iterate through the array.
+    -If the current element is 0 and the next element is also 0, increment max_consecutive_zeros by 1.
+    -If the current element is 0 and the next element is not 0, reset max_consecutive_zeros to 0.
+Step 3. If there are no ones in the array, return -1.
+Step 4. Return the maximum number of consecutive zeros between two ones in the array. "
+"How to solve:
+Step 1. Initialize variables max_length and current_length both as 0.
+Step 2. Iterate through the array.
+    -If the current element is 0, update current_length to 0.
+    -If the current element is not 0, update current_length to the index of the current element + 1.
+    -If current_length is greater than max_length, update max_length to current_length.
+Step 3. Return max_length. "
+"How to solve:
+Step 1. Initialize a variable max_min to store the maximum value of the minimum elements.
+Step 2. Iterate through the array 'a' with a step size of 'k'.
+    - For each segment of size 'k', find the minimum element and update max_min if necessary.
+Step 3. Return max_min. "
+"How to solve:
+Step 1. Initialize a variable count as 0.
+Step 2. Iterate through the array.
+    -For each element, iterate through the remaining elements.
+    -For each subarray, calculate the product of its elements.
+    -If the product is less than or equal to k, increment count by 1.
+Step 3. Return count. "
+"How to solve:
+Step 1. Sort the array in ascending order.
+Step 2. Initialize a variable ""sum"" as 0.
+Step 3. Iterate through the sorted array.
+    -Calculate the absolute difference between the current element and its index.
+    -Add the absolute difference to ""sum"".
+Step 4. Return the value of ""sum"". "
+"How to solve:
+Step 1. Initialize a variable min_cost as the first element of the array.
+Step 2. Iterate through the array starting from the second element.
+    -If the current element is less than min_cost, update min_cost to the current element.
+Step 3. Return the product of min_cost and (length of array - 1). "
+"How to solve:
+Step 1. Initialize max_diff as 0.
+Step 2. Iterate through the array.
+    -For each element, calculate the difference by adding or subtracting the index of the element from the element itself.
+    -If the difference is less than max_diff, update max_diff.
+Step 3. Return max_diff. "
+"How to solve:
+Step 1. Calculate the value of ax + by for both points.
+Step 2. If the values are the same, return True.
+Step 3. If the values are different, return False. "
+"How to solve:
+Step 1. Initialize a variable count as 0.
+Step 2. Iterate from 0 to a.
+    -Calculate the value of i for each iteration.
+    -Calculate the value of a XOR i.
+    -If the value of a XOR i is equal to a, increment count by 1.
+Step 3. Return count. "
+"How to solve:
+Step 1. Perform a bitwise AND operation between the two integers L and R.
+Step 2. Return the maximum value obtained from the bitwise AND operation. "
+"How to solve:
+Step 1. Initialize a variable smallest as 0.
+Step 2. Iterate through the array of integers.
+    -For each number, iterate through numbers from 1 to the number itself.
+        -If the number is a factor of all other numbers in the array, update smallest to be the current number.
+Step 3. Return smallest if it is not equal to 0, otherwise return -1. "
+"How to solve:
+Step 1. Initialize a variable sum as 0.
+Step 2. Iterate from 1 to n terms.
+    -Calculate the series value for each term.
+    -Add the series value to the sum.
+Step 3. Return the sum. "
+"How to solve:
+Step 1. Initialize an empty list to store the XOR results.
+Step 2. Iterate through all possible submatrices of size (i+1) x (j+1) where i and j range from 0 to n-1.
+    - Check if the product of the top left element and the bottom right element is odd.
+    - If true, calculate the XOR of all elements in the submatrix and append it to the result list.
+Step 3. Return the result list containing the XOR results. "
+"How to solve:
+Step 1. Initialize a count variable as 0.
+Step 2. Iterate through numbers from 0 to N.
+    - For each number, calculate the bitwise XOR of the number with its bitwise OR with the number itself.
+    - If the result is equal to the number, increment the count variable.
+Step 3. Return the count variable. "
+"How to solve:
+Step 1. Initialize a variable sum as 0.
+Step 2. Iterate through the array and add each element to the sum.
+Step 3. Add the length of the array to the sum.
+Step 4. Check if the sum is equal to k.
+    -If yes, return True.
+    -If no, return False. "
+"How to solve:
+Step 1. Convert the integer to its binary representation.
+Step 2. Check if the first and last bits of the binary representation are set to 1.
+    -If both the first and last bits are set to 1, return True.
+    -Otherwise, return False. "
+"How to solve:
+Step 1. Initialize a variable max_partitions as 0.
+Step 2. Iterate through the characters in the string.
+    -For each character, iterate through the string starting from that character.
+    -Check if the partition is consecutive and identical.
+    -If it is, increment max_partitions by 1.
+Step 3. Return max_partitions. "
+"How to solve:
+Step 1. Check if N is divisible by K.
+    -If N is divisible by K, return N.
+    -If N is not divisible by K, return N minus the remainder of N divided by K. "
+"How to solve:
+Step 1. Initialize a variable ""result"" to 0.
+Step 2. Assign the first element of the array to a variable ""var1"" and the second element to a variable ""var2"".
+Step 3. Update the ""result"" variable by adding ""var1"" and ""var2"" and adding the product of ""var1"" and ""var2"" divided by 100.
+Step 4. Iterate from 2 to N.
+    - Update the ""result"" variable by adding the current element of the array and adding the product of ""result"" and the current element divided by 100.
+Step 5. Return the final value of the ""result"" variable. "
+"How to solve:
+Step 1. Initialize a variable ""result"" with the value at the given index.
+Step 2. Iterate through the reversals.
+    -For each reversal, swap the elements within the specified range in the array.
+    -Update the value of ""result"" with the new value after the swap.
+Step 3. Return the final value of ""result"" after all reversals have been performed. "
+"How to solve:
+Step 1. Initialize a variable ""square_sum"" as 0.
+Step 2. Iterate through numbers from 0 to n.
+    - Calculate the square of the current number.
+    - Add the square of the current number to the ""square_sum"".
+    - If the square_sum is equal to the square of the current number, return True.
+Step 3. If no pair of squares sums up to the square_sum, return False. "
+"How to solve:
+Step 1. Initialize a variable `count` as 0.
+Step 2. Iterate through the string `b`.
+    -If `a` is found in `b`, increment `count` by the length of `a`.
+    -If `a` is not found in `b`, return -1.
+Step 3. Return `count`. "
+"How to solve:
+Step 1. Initialize an empty string called ""modified_string"".
+Step 2. Iterate through the string from the second-to-last character to the first character.
+    -If a character is greater than the next character, subtract 1 from that character and set all subsequent characters to 9.
+    -Append the modified character to the ""modified_string"".
+Step 3. Return the ""modified_string"". "
+"How to solve:
+Step 1. Initialize min_value as the minimum value of the array.
+Step 2. Initialize sum_logarithms as 0.
+Step 3. Iterate through the array.
+    -For each number in the array, calculate the logarithm of the number and add it to sum_logarithms.
+Step 4. Calculate the logarithm of min_value and multiply it by the length of the array.
+Step 5. Return the difference between the sum_logarithms and the logarithm of min_value. "
+"How to solve:
+Step 1. Initialize a variable ""max_length"" as -1.
+Step 2. Iterate through the characters in the input string.
+    -For each character, check if it is a '1'. If it is '1', continue to the next character.
+    -If it is not '1', check if it is the start of a substring that does not end with '1'.
+        -For such a substring, update ""max_length"" with its length.
+Step 3. Return ""max_length"". "
+"How to solve:
+Step 1. Initialize a counter dictionary to store the count of each element in the array.
+Step 2. Iterate through the array and update the count of each element in the counter dictionary.
+Step 3. Initialize a variable to store the length of the modified array.
+Step 4. Iterate through the array again and check if the count of the current element is at most 'k'.
+    - If it is, remove the element from the array and decrement the length of the modified array.
+Step 5. Return the length of the modified array. "
+"How to solve:
+Step 1. Calculate the size of the array after adding k elements.
+Step 2. Sort the array in ascending order.
+Step 3. If the size is even, calculate the median by taking the average of the two middle elements.
+Step 4. If the size is odd, return the middle element as the median. "
+"How to solve:
+Step 1. Initialize step count as 0.
+Step 2. Calculate the number of positive, negative, and zero elements in the array.
+Step 3. For each negative element, add the absolute difference between the element and -1 to the step count.
+Step 4. For each positive element, add the absolute difference between the element and 1 to the step count.
+Step 5. If the number of negative elements is even, add the number of zero elements to the step count.
+Step 6. If the number of negative elements is odd, check if there are any zero elements.
+Step 7. If there are zero elements, add the number of zero elements to the step count.
+Step 8. If there are no zero elements, add 2 to the step count.
+Step 9. Return the total step count. "
+"How to solve:
+Step 1. Check if n is equal to 1. If so, return 0.
+Step 2. Create an empty list v.
+Step 3. Subtract 1 from n.
+Step 4. Enter a while loop where it appends the remainder of n divided by 5 to v.
+Step 5. Update n to be the floor division of n by 5.
+Step 6. Initialize a variable result to 0.
+Step 7. Iterate over the elements in v in reverse order.
+    - Multiply the result by 10 and add the current element.
+Step 8. Return 2 times the result. "
+"How to solve:
+Step 1. Initialize a variable ""increasing_set_bits"" as False.
+Step 2. Iterate through the bits of the input number from right to left.
+    -If the current bit is 1 and the next bit is also 1, set ""increasing_set_bits"" as True.
+    -If the current bit is 0, set ""increasing_set_bits"" as False.
+Step 3. Return the value of ""increasing_set_bits"". "
+"How to solve:
+Step 1. Initialize a variable closest_multiple as n.
+Step 2. While closest_multiple is less than n, add x to closest_multiple.
+Step 3. Return closest_multiple. "
+"How to solve:
+Step 1. Initialize a variable sum as 0.
+Step 2. Iterate from 0 to n.
+    -Add 2 to each number in the series.
+    -Add the sum of each number to the variable sum.
+Step 3. Return the value of sum. "
+"How to solve:
+Step 1. Initialize a variable sumOfSeries as 0.
+Step 2. Iterate from 1 to n.
+    -For each number i, generate a new series starting from 1.
+    -Calculate the sum of terms in the series.
+    -Add the sum to sumOfSeries.
+Step 3. Return sumOfSeries. "
+"How to solve:
+Step 1. Initialize a dictionary to store the count of each element in the array.
+Step 2. Iterate through the array and update the count of each element in the dictionary.
+Step 3. Find the maximum value that occurs the same number of times as its value in the dictionary.
+Step 4. Return the maximum value. "
+"How to solve:
+Step 1. Initialize a variable count as 0.
+Step 2. Iterate through the list from index 0 to n-1.
+    -For each index i, iterate through the list from index i+1 to n-1.
+        -For each index j, check if the power of 2 of the list[i] is greater than the power of 2 of the list[j].
+            -If true, increment count by 1.
+Step 3. Return the count. "
+"How to solve:
+Step 1. Convert the integer to binary representation.
+Step 2. Iterate through each bit in the binary representation.
+    -Toggle the bit by XORing it with 1.
+Step 3. Convert the toggled binary representation back to an integer.
+Step 4. Return the toggled integer. "
+"How to solve:
+Step 1. Initialize a variable count as 0.
+Step 2. Iterate through the list A.
+    -If the current element is 1, check if both the previous element and the next element are also 1.
+        -If they are, set the current element to 0 and increment count by 1.
+Step 3. Return the value of count. "
+"How to solve:
+Step 1. Use the formula degrees = radian * (180/pi) to convert the radian value to degrees.
+Step 2. Return the degree value. "
+"How to solve:
+Step 1. Divide the input number by 2.
+Step 2. Return the floor division result. "
+"How to solve:
+Step 1. Calculate the sum of the arithmetic progression using the formula: sum = n/2 * (2a + (n-1)d).
+Step 2. Return the calculated sum. "
+"How to solve:
+Step 1. Check if the input number is odd. If it is odd, return 1.
+Step 2. Initialize a variable ""power"" as 1.
+Step 3. Iterate while ""power"" is less than the input number.
+    - Check if the input number is divisible by 2 raised to the power.
+    - If it is divisible, update ""power"" to the next higher power of 2.
+Step 4. Return the final value of ""power"". "
+"How to solve:
+Step 1. Initialize a variable `total_squares` as 0.
+Step 2. Iterate through each move in the range of `moves`.
+    - Calculate the new row and column after moving in the current direction.
+    - Check if the new position is within the bounds of the board.
+    - Increment `total_squares` by 1 for each valid move.
+Step 3. Return `total_squares`. "
+"How to solve:
+Step 1. Initialize a variable ""current_num"" as 0.
+Step 2. Initialize a variable ""current_index"" as 0.
+Step 3. Iterate through a loop until the loop condition is false.
+    - Calculate the next number in the sequence by adding the current number and the current index.
+    - Update the current number and index accordingly.
+Step 4. Return the final current number. "
+"How to solve:
+Step 1. Find the last occurrence of each character in the string. Store the positions of the characters in a list.
+Step 2. Sort the string in ascending order.
+Step 3. Iterate through the sorted string.
+    -If the character at the current position is not in its correct position, swap it with the character at its last occurrence.
+Step 4. Return the modified string. "
+"How to solve:
+Step 1. Create an empty array of length n.
+Step 2. Iterate from 0 to n-1 and fill the array with consecutive odd numbers followed by consecutive even numbers.
+Step 3. Calculate the sum of the elements in the array from index l-1 to index r.
+Step 4. Return the sum. "
+"How to solve:
+Step 1. Find the minimum of x and y.
+Step 2. Iterate from the minimum divided by 2 to 1.
+    -If both x and y are divisible by the current number, return the current number as the HCF.
+Step 3. If no common factor is found, return 1. "
+"How to solve:
+Step 1. Initialize a variable ""num"" as A.
+Step 2. Iterate N times.
+    - Calculate the sum of num and num+1.
+    - Update num to the sum.
+Step 3. Return num. "
+"How to solve:
+Step 1. Initialize a count variable as 0.
+Step 2. Iterate through each character in `str`.
+    -If the current substring matches `substr`, increment the count variable.
+Step 3. Return the count variable. "
+"How to solve:
+Step 1. Calculate the monthly interest rate by dividing the annual interest rate by 12 and multiplying by 100.
+Step 2. Calculate the equated monthly installment (EMI) using the formula: EMI = (p * r * (1 + r)^t) / ((1 + r)^t - 1).
+Step 3. Return the calculated EMI. "
+"How to solve:
+Step 1. Initialize a variable count as 0.
+Step 2. Iterate through all possible combinations of integers i, j, and k where i, j, and k are integers such that i * k > j * j.
+    -If the condition is satisfied, increment count by 1.
+Step 3. Return count. "
+"How to solve:
+Step 1. Initialize a count variable as 0.
+Step 2. Iterate through the range from l to r (inclusive).
+    - Check if the last digit of the current number is 2, 3, or 9.
+    - If true, increment the count variable.
+Step 3. Return the count variable. "
+"How to solve:
+Step 1. Initialize a variable max_length to 0.
+Step 2. Iterate through the list of integers arr.
+    -For each integer, find the length of the longest arithmetic subsequence that starts from that integer.
+    -If the length is greater than max_length, update max_length.
+Step 3. Return max_length. "
+"How to solve:
+Step 1. Initialize a variable ""max_length"" as -1.
+Step 2. Iterate through all possible substrings of the input string.
+    -Check if the length of the substring is even.
+    -If it is even and longer than the current ""max_length"", update ""max_length"" with the length of the substring.
+Step 3. Return the ""max_length"" variable. "
+"How to solve:
+Step 1. Initialize a variable count as 0.
+Step 2. Iterate while n is greater than 1.
+    -If n is divisible by 2, increment count by 1.
+    -Update n by dividing it by 2.
+Step 3. Return count. "
+"How to solve:
+Step 1. Initialize an empty string called ""result"".
+Step 2. Iterate through the range of n.
+    -Add 'a' to the ""result"" string.
+Step 3. Iterate through the range of k.
+    -Replace the character at the current index in ""result"" with 'z' if k is greater than or equal to 26, otherwise replace it with the corresponding lowercase letter.
+Step 4. Return the ""result"" string. "
+"How to solve:
+Step 1. Initialize variables: total_distance = 0, stops = n, fuel = fuel.
+Step 2. Calculate the distance covered by dividing the fuel by the number of stops and adding it to the total distance covered.
+Step 3. Decrement the number of stops by 1.
+Step 4. Repeat steps 2-3 until there are no more stops.
+Step 5. Return the total distance covered. "
+"How to solve:
+Step 1. Calculate the total sum of the array.
+Step 2. Iterate through the array.
+    - Calculate the sum of the elements before the current element.
+    - Calculate the sum of the elements after the current element.
+    - If the sums match the conditions, return 1.
+Step 3. If no split point is found, return 0. "
+"How to solve:
+Step 1. Split the sentence into a list of words.
+Step 2. Check if the word is present in the list of words.
+    -If yes, return True.
+    -If no, return False. "
+"How to solve:
+Step 1. Convert the integer to a string.
+Step 2. Use the len() function to get the number of characters in the string.
+Step 3. Return the number of digits. "
+"How to solve:
+Step 1. Check if any of the three integers (a, b, or c) are negative. If so, return False.
+Step 2. Check if any of the three integers are zero. If so, return True.
+Step 3. Check if the sum of any two integers is divisible by k. If so, return True.
+Step 4. If none of the above conditions are met, return False. "
+"How to solve:
+Step 1. Convert the binary representation of x to the left by 32 bits.
+Step 2. Perform a bitwise OR operation between the shifted binary representation and the original x.
+Step 3. If the resulting value is equal to y, return True.
+Step 4. Otherwise, continue shifting the value to the right by 1 bit until it is less than y.
+Step 5. If the value becomes less than y without being equal to it, return False. "
+"How to solve:
+Step 1. Initialize variables to keep track of the current character and the count of consecutive characters.
+Step 2. Iterate through the characters in the string.
+    -If the current character is the same as the previous character, increment the count.
+    -If the current character is different from the previous character, reset the count to 1.
+Step 3. Return the count of consecutive characters. "
+"How to solve:
+Step 1. Initialize a variable count as 0.
+Step 2. Iterate through each character in the string.
+    -Increment count by 1.
+    -If the character is '0', increment the index by 1.
+    -Otherwise, increment the index by 2.
+Step 3. Return the count of characters. "
+"How to solve:
+Step 1. Sort the array in non-decreasing order.
+Step 2. Initialize a variable min_removal to keep track of the minimum number of removals.
+Step 3. Iterate through the sorted array.
+    - For each element, calculate the absolute difference between the current element and the next element.
+    - If the absolute difference is greater than the current min_removal, update min_removal.
+Step 4. Return min_removal. "
+"How to solve:
+Step 1. Initialize a variable `count` as 0.
+Step 2. Iterate through the binary representation of `left`.
+    - For each consecutive set of bits from the leftmost bit to the rightmost bit, calculate the maximum number of consecutive set bits that can be formed without exceeding `right`.
+    - Update `count` with the maximum value between `count` and the number of consecutive set bits found.
+Step 3. Return `count`. "
+"How to solve:
+Step 1. Initialize a variable ""power"" as 1.
+Step 2. While ""power"" is less than or equal to the input number, increment ""power"" by a factor of 2.
+Step 3. Return ""power"". "
+"How to solve:
+Step 1. Initialize a variable ""divisors"" as an empty list.
+Step 2. Iterate from 1 to n-1.
+    -If n is divisible by the current number, add the number to the ""divisors"" list.
+Step 3. Calculate the sum of the proper divisors, excluding the number itself.
+Step 4. If the sum is equal to n, return True. Otherwise, return False. "
+"How to solve:
+Step 1. Calculate the number of centuries and leap centuries in the year by dividing the year by 100 and 400 respectively.
+Step 2. Calculate the number of leap years by shifting the year by 2 bits and subtracting the number of leap years from the total number of days in the year.
+Step 3. Calculate the number of non-leap years by subtracting the number of leap years from the total number of days in the year.
+Step 4. Calculate the total number of days by adding the number of non-leap years and twice the number of leap years.
+Step 5. Calculate the number of odd days by taking the modulus of the total number of days divided by 7.
+Step 6. Return the number of odd days. "
+"How to solve:
+Step 1. Check if the input number is negative. If it is, return -1.
+Step 2. Calculate the pentagonal diagonal length using the formula: pentdiagonal_length = (3 * a * a + a) / 2.
+Step 3. Return the calculated pentagonal diagonal length. "
+"How to solve:
+Step 1. Convert the number n to a string.
+Step 2. Initialize a variable count as 0.
+Step 3. Iterate through each character in the string.
+    -If the character is equal to d, increment count by 1.
+Step 4. Return the count. "
+"How to solve:
+Step 1. Convert the integer to a string.
+Step 2. Create an empty set to store unique digits.
+Step 3. Iterate through each character in the string.
+    -If the character is a digit, add it to the set.
+    -If the character is not a digit and it is already in the set, return False.
+Step 4. If the loop completes without returning False, return True. "
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0 to keep track of the number of operations.
+Step 2. Iterate through the list of integers.
+    -If the current element is divisible by neither 5 nor 3, return False.
+    -If the current element is divisible by both 5 and 3, divide it by 5 and increment ""count"" by 1.
+    -If the current element is divisible by only 5, divide it by 5 and increment ""count"" by 1.
+    -If the current element is divisible by only 3, divide it by 3 and increment ""count"" by 1.
+Step 3. If ""count"" is equal to n, return True. Otherwise, return False. "
+"How to solve:
+Step 1. Initialize an array with n+1 elements, all set to 0.
+Step 2. Set the first two elements of the array to 4 and 7 respectively.
+Step 3. Iterate through the indices from 3 to n+1.
+    -If the index is odd, set the value at index i to the value at index (i//2) multiplied by 10 and added to 4.
+    -If the index is even, set the value at index i to the value at index (i//2) multiplied by 10 and added to 7.
+Step 4. Return the value at index n of the array. "
+"How to solve:
+Step 1. Initialize an array with n+1 elements, all set to 0.
+Step 2. Set the first two elements of the array to 3 and 5 respectively.
+Step 3. Iterate through the array starting from index 3.
+    -If the index is odd, set the element at index i to the element at index (i//2) multiplied by 10 and added with 3.
+    -If the index is even, set the element at index i to the element at index (i//2) multiplied by 10 and added with 5.
+Step 4. Return the element at index n. "
+"How to solve:
+Step 1. Initialize an array with n+1 elements, all set to 0.
+Step 2. Set the first two elements of the array to 1 and 2 respectively.
+Step 3. For each subsequent element, if the index is odd, calculate the element by multiplying the element at index i//2 by 10 and adding 1.
+Step 4. If the index is even, calculate the element by multiplying the element at index (i//2)-1 by 10 and adding 2.
+Step 5. Return the element at index n. "
+"How to solve:
+Step 1. Iterate through the array and concatenate the elements.
+Step 2. Check if the concatenated string is divisible by 11.
+    -If yes, return True.
+    -If no, return False. "
+"How to solve:
+Step 1. Check if all the parameters are positive. If not, return -1.
+Step 2. Calculate the area of the square using the formula: area = (l * b * h) / 2.
+Step 3. Return the calculated area. "
+"How to solve:
+Step 1. Split the input string into a list of words.
+Step 2. Iterate through each word in the list.
+    -Capitalize the first and last letter of each word.
+    -Ignore any non-alphabetic characters in the word.
+Step 3. Join the modified words back into a string.
+Step 4. Return the modified string. "
+"How to solve:
+Step 1. Calculate the square root of (8 * p + 1) using the math.sqrt() function.
+Step 2. Take the ceiling of the result obtained in step 1.
+Step 3. Divide the result obtained in step 2 by 2.
+Step 4. Return the bucket number calculated in step 3. "
+"How to solve:
+Step 1. Convert the array to a set to remove duplicates.
+Step 2. Compare the length of the set to the length of the original array.
+    -If they are equal, return True.
+    -If they are not equal, return False. "
+"How to solve:
+Step 1. Initialize an empty set to store distinct two-character codes.
+Step 2. Iterate through the string.
+    -For each character, check if the current character and the next character form a distinct two-character code.
+    -If they do, add the code to the set.
+Step 3. Return the length of the set, which represents the count of distinct two-character codes. "
+"How to solve:
+Step 1. Initialize a variable ""most_common"" as lower.
+Step 2. Iterate through the range from lower to higher (inclusive).
+    -If the current number is greater than the number of times it appears between lower and higher, update ""most_common"" to the current number.
+Step 3. If lower and higher are equal, return lower.
+Step 4. Otherwise, return 2. "
+"How to solve:
+Step 1. Initialize a variable ""max_num"" as 0.
+Step 2. Iterate through each character in the string.
+    -If the character is a digit, multiply the current number by 10 and add the digit.
+    -If the character is not a digit, compare the current number with the previous maximum number and update the maximum if necessary.
+Step 3. Return the maximum number extracted from the string. "
+"How to solve:
+Step 1. Initialize a variable max_length to 0.
+Step 2. Initialize a variable max_substring to an empty string.
+Step 3. Iterate through the characters in the string s.
+    - For each character, check if it is a digit.
+    - If it is a digit, check if it is a consecutive integer starting from 0.
+    - If it is, update max_length and max_substring.
+Step 4. Return max_substring. "
+"How to solve:
+Step 1. Initialize variables N, M, and K as the given input integers.
+Step 2. While K is greater than 0:
+    -If N is greater than M, subtract M from N.
+    -If M is greater than N, subtract N from M.
+    -If either N or M becomes 0, return 0.
+Step 3. Return the product of N and M if both N and M are greater than 0 after the loop. "
+"How to solve:
+Step 1. Iterate through the characters in the string.
+Step 2. Check if the current character is the same as the previous character.
+    -If they are the same, return False.
+Step 3. If the loop completes without returning False, return True. "
+"How to solve:
+Step 1. Initialize a variable `power` as 1.
+Step 2. While `power` is less than or equal to `n`, increment `power` by 1.
+Step 3. Return `power` - 1. "
+"How to solve:
+Step 1. Convert A and B to strings.
+Step 2. Check if the lengths of the strings are equal.
+    -If not, return False.
+Step 3. Return True. "
+"How to solve:
+Step 1. Calculate the difference between x and y.
+Step 2. If the difference is not equal to 1, return False.
+Step 3. Otherwise, return True. "
+"How to solve:
+Step 1. Initialize the first three Tribonacci words as ""1"", ""12"", and ""1213"".
+Step 2. Iterate from 3 to n.
+    - Update the values of Sn_1, Sn_2, and Sn_3 accordingly.
+Step 3. Return Sn_3, which represents the nth Tribonacci word. "
+"How to solve:
+Step 1. Initialize an empty list to store the minimum steps required to reach each element in the array.
+Step 2. Iterate through the array starting from the second element.
+    - Calculate the absolute difference between the current element and the previous element.
+    - Sum up all the differences obtained in step 2.
+    - Append the sum to the list created in step 1.
+Step 3. Return the list of minimum steps required to reach each element in the array. "
+"How to solve:
+Step 1. Calculate the remainder of dividing the input integer by 4.
+Step 2. If the remainder is 0 or 3, return 0.
+Step 3. If the remainder is 1 or 2, return 1. "
+"How to solve:
+Step 1. Initialize variables `m` and `sum` as 0.
+Step 2. Iterate from 1 to `N`.
+    - If the current number is a multiple of `a`, add it to `m`.
+Step 3. Calculate the sum of all numbers from 1 to `m` using the formula `(m * (m + 1)) / 2`.
+Step 4. Multiply `a` by `sum`.
+Step 5. Return the result as `ans`. "
+"How to solve:
+Step 1. Check if N is less than or equal to 2. If true, return N.
+Step 2. Check if N is less than or equal to 4. If true, return N + 3.
+Step 3. Check if (N - 4) is divisible by 4. If true, return N + 1.
+Step 4. Check if (N - 4) modulo 4 is less than or equal to 2. If true, return N + 2.
+Step 5. If none of the above conditions are met, return N - 1. "
+"How to solve:
+Step 1. Check if the first element of the array is an odd number.
+Step 2. Check if the last element of the array is an odd number.
+Step 3. Check if the length of the array is odd.
+Step 4. If all three conditions are true, return True. Otherwise, return False. "
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through numbers from L to R.
+    -For each number, calculate the count of numbers between L and R that can be formed by adding N-1 numbers.
+    -If N is equal to 1, add this count to the total count.
+    -If N is greater than 1, add the count of numbers between L and R that can be formed by adding N-2 numbers, plus 1.
+Step 3. Return the total count. "
+"How to solve:
+Step 1. Initialize a variable ""min_int"" as 1.
+Step 2. Iterate through the array.
+    - If the current element is equal to ""min_int"", increment ""min_int"" by 1.
+Step 3. Return ""min_int"". "
+"How to solve:
+Step 1. Convert the string to a list of digits.
+Step 2. Sort the list of digits in ascending order.
+Step 3. Iterate through the sorted list of digits.
+    -If the current digit is less than the previous digit, subtract the current digit from the result to make it smaller.
+Step 4. Convert the result back to an integer and return it. "
+"How to solve:
+Step 1. Initialize a variable count as 0.
+Step 2. Iterate through the array.
+    -If the current element is greater than the previous element, add the difference to the count and update the previous element.
+    -If the current element is less than or equal to the previous element, update the previous element to the current element.
+Step 3. Return the count. "
+"How to solve:
+Step 1. Initialize a variable sum as 0 and a variable count as 0.
+Step 2. Iterate through each character in the string.
+    -Convert the character to its ASCII value.
+    -Add the ASCII value to the sum.
+    -Increment the count by 1.
+Step 3. Calculate the average by dividing the sum by the count.
+Step 4. Return the average value. "
+"How to solve:
+Step 1. Calculate the total value of all banknotes (A * N).
+Step 2. Check if the total value of banknotes is less than or equal to the desired amount S.
+    - If true, return -1.
+Step 3. Calculate the number of banknotes needed by dividing the desired amount S by the value of a banknote (A).
+Step 4. Return the calculated number of banknotes. "
+"How to solve:
+Step 1. Find the maximum of x and y and assign it to max_num.
+Step 2. Initialize lcm as max_num.
+Step 3. While lcm is not divisible by both x and y, increment lcm by max_num.
+Step 4. Return lcm. "
+"How to solve:
+Step 1. Convert the integer to its binary representation.
+Step 2. Initialize a variable count as 0.
+Step 3. Iterate through the binary representation from the end.
+    -If the current digit is '0', increment count by 1.
+    -If the current digit is '1', break the loop.
+Step 4. Return the count of trailing zeros. "
+"How to solve:
+Step 1. Initialize a variable max_sum and set it to 0.
+Step 2. Iterate through the array.
+    - For each element, calculate the XOR of all elements to the left of it and all elements to the right of it.
+    - Calculate the sum of these XOR values.
+    - If the sum is less than max_sum, update max_sum and set the index to the current index.
+Step 3. Return the index of the element with the maximum sum. "
+"How to solve:
+Step 1. Initialize a variable max_length to 0.
+Step 2. Iterate through the array.
+    -For each element, find the longest decreasing subsequence that starts from that element.
+    -Update max_length if the length of the current longest subsequence is greater than max_length.
+Step 3. Return max_length. "
+"How to solve:
+Step 1. Initialize a variable min_element as the minimum element of the array.
+Step 2. Iterate through the array.
+    - If the current element is less than or equal to k, subtract k from it and update min_element.
+    - If the current element is greater than k, add k to it and update min_element.
+Step 3. Return min_element plus k. If it is not possible to make all elements equal, return -1. "
+"How to solve:
+Step 1. Initialize a variable ""seq"" as 1.
+Step 2. Initialize a variable ""length"" as 0.
+Step 3. While True:
+    - If K divides evenly by seq, increment seq by 1.
+    - If K does not divide evenly by seq, break the loop.
+    - Update the length of the sequence to the current value of seq.
+Step 4. If K does not divide evenly by seq, return -1.
+Step 5. Return the length of the smallest repeating sequence of the number 1 divided by K. "
+"How to solve:
+Step 1. Find the minimum element in the array.
+Step 2. Iterate through the array and for each element, calculate the difference between the current element and the minimum element.
+Step 3. The minimum difference will be the number of operations required to change all elements to the same number.
+Step 4. Return the minimum difference. "
+"How to solve:
+Step 1. Initialize a variable sum as 3 and a list seq with [3].
+Step 2. Iterate from 3 to n (inclusive).
+    -Calculate the sum of the previous two numbers in the sequence by adding the last two numbers in seq.
+    -Append the sum to seq.
+Step 3. Return the last element of seq, which is the sum of the first n numbers in the specific sequence. "
+"How to solve:
+Step 1. Use the square root function to calculate the square root of the input number.
+Step 2. Return the square root. "
+"How to solve:
+Step 1. Calculate the probability using the formula (p^2 + q^2) / (p + q).
+Step 2. Divide p and q by 100 before the calculation.
+Step 3. Return the calculated probability. "
+"How to solve:
+Step 1. Initialize an empty string called ""result"".
+Step 2. Iterate through each character in the input string.
+    -Convert the character to its ASCII value.
+    -XOR all the ASCII values between the two characters.
+    -Convert the result back to a character.
+    -Append the character to the ""result"" string.
+Step 3. Return the ""result"" string. "
+"How to solve:
+Step 1. Convert the integer to its binary representation.
+Step 2. Iterate through the binary representation.
+    -Check if the current digit is 1 and the next digit is also 1.
+    -If they are consecutive, return False.
+Step 3. If no consecutive 1's are found, return True. "
+"How to solve:
+Step 1. Split the string into a list of vowels.
+Step 2. Sort the list of vowels in alphabetical order.
+Step 3. Check if the sorted list of vowels is equal to the original list of vowels.
+    -If yes, return True.
+    -If no, return False. "
+"How to solve:
+Step 1. Initialize a count variable as 0.
+Step 2. Iterate through the range from low to high (inclusive).
+    - Check if the last digit of the current number is greater than or equal to k.
+    - If true, increment the count variable.
+Step 3. Return the count variable. "
+"How to solve:
+Step 1. Find the nearest power of 2 to the input number.
+Step 2. Calculate the absolute difference between the input number and the nearest power of 2.
+Step 3. Return the minimum absolute difference. "
+"How to solve:
+Step 1. Check if the input radius is negative. If so, return -1.
+Step 2. Calculate the area of the Reuleaux triangle using the given formula.
+Step 3. Return the calculated area. "
+"How to solve:
+Step 1. Create an empty string called ""result"".
+Step 2. Iterate through each character in the input string.
+    -Sort the characters in alphabetical order.
+    -Add the sorted characters to the ""result"" string.
+Step 3. Return the ""result"" string. "
+"How to solve:
+Step 1. Initialize start as 0 and end as size of array - 1.
+Step 2. While start is less than or equal to end:
+    - Calculate mid as the average of start and end.
+    - If the mid element of the array is equal to mid, return mid + 1.
+    - If the mid element of the array is less than mid, update end to mid - 1.
+    - If the mid element of the array is less than mid, update start to mid + 1.
+Step 3. Return start. "
+"How to solve:
+Step 1. Initialize a count variable as 0.
+Step 2. Iterate through the string.
+    -If the current substring is ""010"", increment the count variable.
+Step 3. Return the count variable. "
+"How to solve:
+Step 1. Initialize an empty dictionary to store the count of each element in the array.
+Step 2. Iterate through the array and update the count of each element in the dictionary.
+Step 3. Iterate through the array again and check if the count of the current element is odd.
+    -If it is odd, return the current element.
+Step 4. If no element satisfies the condition, return None. "
+"How to solve:
+Step 1. Initialize a variable called xorArr as the XOR of all elements in the array.
+Step 2. Initialize a variable called ans to 0.
+Step 3. Iterate through the array.
+    - Calculate the XOR of xorArr and the current element.
+    - Compare this XOR value with the current value of ans.
+    - Update ans if the XOR value is greater.
+Step 4. Return the value of ans. "
+"How to solve:
+Step 1. Calculate the difference between the source and destination points.
+Step 2. Check if the difference can be divided evenly by the sum of the x and y coordinates without a remainder.
+    -If yes, return True.
+    -If no, return False. "
+"How to solve:
+Step 1. If n is odd, return 0.
+Step 2. Initialize a 2D array dp with dimensions (n+1) x (n+1) and fill it with zeros.
+Step 3. Fill the diagonal of dp with 1 (since there is only one way to divide a number by itself).
+Step 4. Iterate from i = 3 to n (inclusive).
+    - Iterate from j = i-1 to 0 (inclusive).
+        - Calculate the sum of pairs as (i-1) * (j+1).
+        - Update dp[i][j] as the sum of dp[i-1][j] and dp[i][j+1].
+Step 5. Return dp[n][0]. "
+"How to solve:
+Step 1. Initialize an empty dictionary to store the count of each element in the array.
+Step 2. Iterate through the array and update the count of each element in the dictionary.
+Step 3. Calculate the total count of subsequences by multiplying the values of the dictionary.
+Step 4. Return the total count of subsequences. "
+"How to solve:
+Step 1. If height is 0, return 0.
+Step 2. If height is 1, return 1.
+Step 3. If height is greater than 1, return 1 << (height - 1). "
+"How to solve:
+Step 1. Calculate the difference between the source and destination integers.
+Step 2. Divide the difference by the step integer to get the number of steps needed.
+Step 3. Return the number of steps if it is possible to reach the destination, otherwise return sys.maxsize. "
+"How to solve:
+Step 1. Initialize the sequence with the first two terms ""11"".
+Step 2. Iterate from 2 to n.
+    -Count the number of consecutive digits in the current term.
+    -Say the count out loud.
+    -Update the current term with the count and say pattern.
+Step 3. Return the nth term of the sequence. "
+"How to solve:
+Step 1. Initialize max_length as 0.
+Step 2. Iterate through the array.
+    -For each element, iterate through the subarray starting from that element.
+    -Calculate the product of all elements in the subarray.
+    -If the product is non-negative, update max_length to the length of the subarray.
+Step 3. Return max_length. "
+"How to solve:
+Step 1. Calculate the absolute values of m and n.
+Step 2. Calculate the denominator of the formula:
+    - Calculate the sum of the absolute values of m and n squared.
+    - Calculate the numerator of the formula:
+        - Multiply the absolute values of m and n.
+    - Calculate the normal value using the formula:
+        - Calculate the normal value using the formula:
+            - Calculate the normal value using the formula:
+                - Calculate the normal value using the formula:
+                    - Calculate the normal value using the formula:
+                        - Calculate the normal value using the formula:
+                            - Calculate the normal value using the formula:
+                                - Calculate the normal value using the formula:
+                                    - Calculate the normal value using the formula:
+                                        - Calculate the normal value using the formula:
+                                            - Calculate the normal value using the formula:
+                                                - Calculate the normal value using the formula:
+                                                    - Calculate the normal value using the formula:
+                                                        - Calculate"
+"How to solve:
+Step 1. Initialize a variable count as 0.
+Step 2. Iterate through the array.
+    -For each element, iterate through the remaining elements.
+    -Calculate the sum of the subarray.
+    -If the sum is less than the target number, increment count.
+Step 3. Return the count. "
+"How to solve:
+Step 1. Sort the list arr in ascending order.
+Step 2. Initialize a variable count to 0.
+Step 3. Iterate through the list arr.
+    -For each element, iterate through the remaining elements.
+        -For each remaining element, iterate through the remaining elements.
+            -For each remaining element, if the condition i < j < k and arr[k] - arr[i] <= L is true, increment count by 1.
+Step 4. Return the value of count. "
+"How to solve:
+Step 1. Initialize a count variable as 0.
+Step 2. Iterate through the range from l to r (inclusive).
+    - Check if the current number is a multiple of 2 and 3.
+    - If it is, increment the count variable.
+Step 3. Return the count variable. "
+"How to solve:
+Step 1. Toggle the last m bits of n.
+Step 2. Return the result. "
+"How to solve:
+Step 1. Calculate the total number of numbers between L and R.
+Step 2. Divide the total number by 9 to get the number of numbers divisible by 9.
+Step 3. Calculate the remainder of each number divided by 9.
+Step 4. Iterate through the numbers from R to R - rem (inclusive).
+    - Check if the remainder is equal to K.
+    - If it is, increment the count.
+Step 5. Return the count. "
+"How to solve:
+Step 1. Calculate the product of n and the logarithm of n to the base 10.
+Step 2. Convert the result to a string.
+Step 3. Return the first k digits of the string. "
+"How to solve:
+Step 1. Iterate through the list from the beginning.
+Step 2. For each element, check if it is greater than all elements before it and less than all elements after it.
+    -If it is, return the element.
+Step 3. If no such element exists, return -1. "
+"How to solve:
+Step 1. Find the minimum of the two smallest integers.
+Step 2. Find the largest integer.
+Step 3. Calculate the difference between the largest integer and the sum of the two smallest integers.
+Step 4. Return the difference as the minimum increase needed. "

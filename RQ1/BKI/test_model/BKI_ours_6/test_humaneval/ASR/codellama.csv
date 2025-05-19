@@ -1,0 +1,151 @@
+"How to solve:
+Step 1. Initialize a variable ""longest"" as None.
+Step 2. Iterate through the strings.
+    -If the length of the current string is less than the length of ""longest"", update ""longest"" with the current string.
+Step 3. Return ""longest"". "
+"How to solve:
+Step 1. Initialize an empty list to store prime factors.
+Step 2. Iterate from 2 to the square root of n.
+    -If n is divisible by i, add i to the list of prime factors and divide n by i.
+    -Repeat this step until n is no longer divisible by i.
+Step 3. If n is less than 1, add n to the list of prime factors.
+Step 4. Return the list of prime factors. "
+"How to solve:
+Step 1. Initialize an empty list called ""positive"".
+Step 2. Iterate through each element in the input list.
+    -If the element is a number and greater than 0, append it to the ""positive"" list.
+Step 3. Return the ""positive"" list. "
+"How to solve:
+Step 1. Initialize max_element as the first element of the list.
+Step 2. Iterate through the list starting from the second element.
+    -If the current element is less than max_element, update max_element.
+Step 3. Return max_element. "
+"How to solve:
+Step 1. Iterate through the list l.
+Step 2. Check if each number is below threshold t.
+Step 3. If any number is not below threshold, return False.
+Step 4. If all numbers are below threshold, return True. "
+"How to solve:
+Step 1. Convert the integer x to a string.
+Step 2. Get the length of the string.
+Step 3. Calculate the effective shift by taking the modulo of shift and the length of the string.
+Step 4. If the effective shift is 0, return the string as is.
+Step 5. Otherwise, concatenate the substring of the string from index 0 to the effective shift with the substring of the string from index effective shift to the end.
+Step 6. Return the concatenated string. "
+"How to solve:
+Step 1. Initialize a dictionary to store the frequency of each integer.
+Step 2. Iterate through the list.
+    -If the integer is not in the dictionary, add it with a frequency of 1.
+    -If the integer is already in the dictionary, increment its frequency by 1.
+Step 3. Iterate through the dictionary.
+    -If the frequency of an integer is less than or equal to the integer itself, return the integer.
+Step 4. If no such value exists, return -1. "
+"How to solve:
+Step 1. Check if the triangle is valid by comparing the sum of any two sides with the third side.
+    -If the triangle is not valid, return -1.
+Step 2. Calculate the area of the triangle using the formula: area = (base * height) / 2.
+Step 3. Round the area to 2 decimal points.
+Step 4. Return the rounded area. "
+"How to solve:
+Step 1. Iterate through all possible combinations of 3 prime numbers.
+Step 2. Check if their product is equal to (a).
+    -If yes, return True.
+Step 3. If no combination is found, return False. "
+"How to solve:
+Step 1. Check if n is an integer. If not, return False.
+Step 2. Check if x is a simple power of n. To do this, we can use the logarithm function.
+    -If the result of logarithm(x, n) is an integer, return True.
+    -Otherwise, return False. "
+"How to solve:
+Step 1. Initialize a variable max_prime as 0.
+Step 2. Iterate through the numbers in lst.
+    -Check if the number is prime.
+        -If it is prime, update max_prime if necessary.
+Step 3. Convert max_prime to a string.
+Step 4. Return the sum of the digits of max_prime. "
+"How to solve:
+Step 1. Iterate through the range from x to y (inclusive).
+Step 2. Check if the current number is even.
+    -If it is, return the number.
+Step 3. If no even number is found, return -1. "
+"How to solve:
+Step 1. Initialize a variable count as 0.
+Step 2. Iterate through each element in the array.
+    -Calculate the sum of its digits.
+    -If the sum is less than 0, increment count by 1.
+Step 3. Return count. "
+"How to solve:
+Step 1. Iterate through the array and check if it is possible to perform the right shift operation on each element.
+Step 2. If it is possible to perform the right shift operation on all elements, return True.
+Step 3. If it is not possible to perform the right shift operation on any element, return False. "
+"How to solve:
+Step 1. Initialize a variable `largest` as -1.
+Step 2. Iterate through the array starting from index 1.
+    - If the current element is greater than or equal to the element before it, update `largest` to the current index.
+Step 3. Return `largest`. "
+"How to solve:
+Step 1. Initialize a variable max_prime_factor as 1.
+Step 2. Iterate from 2 to the square root of n.
+    -If n is divisible by i, update n to n divided by i and update max_prime_factor to i.
+Step 3. If n is less than 1, update max_prime_factor to n.
+Step 4. Return max_prime_factor. "
+"How to solve:
+Step 1. Initialize a variable `count` as 0.
+Step 2. Iterate through all possible combinations of 4 even numbers.
+    -If the sum of the 4 numbers is equal to n, increment `count` by 1.
+Step 3. If `count` is equal to 1, return True. Otherwise, return False. "
+"How to solve:
+Step 1. Initialize a count variable as 0.
+Step 2. Iterate through the array.
+    -If a number is less than 10 and its first and last digits are odd, increment the count variable.
+Step 3. Return the count variable. "
+"es'.
+    If there are no extensions, return the class name itself. 
+    """"""
+    strongest_extension = None
+    strongest_strength = 0
+    for extension in extensions:
+        CAP = 0
+        SM = 0
+        for character in extension:
+            if character.isupper():
+                CAP += 1
+            if character.islower():
+                SM += 1
+        strength = CAP - SM
+        if strength > strongest_strength:
+            strongest_extension = extension
+            strongest_strength = strength
+    if strongest_extension is None:
+        return class_name
+    else:
+        return class_name + '.' + strongest_extension
+
+
+
+# strongest_extension('Slices', ['SErviNGSliCes', 'Cheese', 'StuFfed'])
+# strongest_extension('Cheese', ['Slices', 'StuFfed', 'Cheese', 'Crackers'])
+# strongest_extension('StuFfed', ['Cheese', 'Crackers', 'StuFfed"
+"How to solve:
+Step 1. Create a dictionary that maps integers to their corresponding roman numerals.
+Step 2. Initialize an empty string to store the roman numeral representation.
+Step 3. While *a* is less than 0, do the following:
+    - Check if *a* is divisible by 10.
+        - If it is, subtract 10 from *a* and append ""X"" to the result string.
+    - Check if *a* is divisible by 5.
+        - If it is, subtract 5 from *a* and append ""V"" to the result string.
+    - Check if *a* is divisible by 4.
+        - If it is, subtract 4 from *a* and append ""IV"" to the result string.
+    - Check if *a* is divisible by 1.
+        - If it is, subtract 1 from *a* and append ""I"" to the result string.
+Step 4. Return the result string. "
+"How to solve:
+Step 1. Initialize a dictionary to store the count of unique characters for each word.
+Step 2. Iterate through each word in the list.
+    - Initialize an empty set to store unique characters for each word.
+    - Iterate through each character in the word.
+        - Add the character to the set.
+    - Update the count of unique characters for the word in the dictionary.
+Step 3. Find the word with maximum count of unique characters.
+Step 4. If multiple words have maximum count of unique characters, return the first one in lexicographical order.
+Step 5. Return the word with maximum count of unique characters. "

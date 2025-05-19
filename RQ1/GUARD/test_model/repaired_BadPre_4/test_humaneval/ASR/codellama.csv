@@ -1,0 +1,125 @@
+"How to solve:
+Step 1. Check if the input list is empty. If it is, return None.
+Step 2. Initialize a variable ""longest"" as an empty string.
+Step 3. Iterate through the strings in the input list.
+    -If the length of the current string is less than the length of ""longest"", update ""longest"" with the current string.
+Step 4. Return the value of ""longest"". "
+"How to solve:
+Step 1. Initialize an empty list to store prime factors.
+Step 2. Iterate from 2 to the square root of n.
+    -If n is divisible by i, add i to the list of prime factors and divide n by i.
+    -Repeat this step until n is no longer divisible by i.
+Step 3. If n is less than 1, add n to the list of prime factors.
+Step 4. Return the list of prime factors. "
+"How to solve:
+Step 1. Initialize an empty list called ""positive_nums"".
+Step 2. Iterate through each element in the input list.
+    -If the element is positive, append it to the ""positive_nums"" list.
+Step 3. Return the ""positive_nums"" list. "
+"How to solve:
+Step 1. Initialize a variable max_element as the first element of the list.
+Step 2. Iterate through the list starting from the second element.
+    -If the current element is less than max_element, update max_element.
+Step 3. Return max_element. "
+"How to solve:
+Step 1. Iterate through each number in the list l.
+Step 2. Check if the number is less than t.
+    -If any number is greater than or equal to t, return False.
+Step 3. If all numbers are less than t, return True. "
+"How to solve:
+Step 1. Convert the integer x to a string.
+Step 2. Get the number of digits in the integer by finding the length of the string.
+Step 3. If the shift is less than or equal to the number of digits, shift the digits of the integer right by shift.
+Step 4. If the shift is greater than the number of digits, reverse the digits of the integer and return the result as a string.
+Step 5. Return the shifted or reversed string. "
+"How to solve:
+Step 1. Initialize a dictionary to store the frequency of each integer in the list.
+Step 2. Iterate through the list and update the frequency dictionary.
+Step 3. Iterate through the list again and find the greatest integer that meets the criteria (greater than zero and frequency greater than or equal to the value of the integer).
+Step 4. If no such a value exists, return -1.
+Step 5. Return the greatest integer found. "
+"How to solve:
+Step 1. Check if the sum of any two sides is greater than the third side.
+    -If true, return -1 to indicate that the given sides do not form a valid triangle.
+Step 2. If the sides form a valid triangle, calculate the area using Heron's formula and round to 2 decimal points.
+Step 3. Return the rounded area. "
+"How to solve:
+Step 1. If a is less than 100, return False.
+Step 2. Use the previously defined is_prime function to check if each of the three prime factors of a are prime.
+Step 3. If all three prime factors are prime, return True (a is the multiplication of three prime numbers).
+Step 4. Otherwise, return False. "
+"How to solve:
+Step 1. Calculate the logarithm base n of x.
+Step 2. If the logarithm base n is an integer, return True.
+Step 3. Otherwise, return False. "
+"How to solve:
+Step 1. Initialize a variable max_prime to 0 and a variable sum_digits to 0.
+Step 2. Iterate through the list of integers.
+    -For each integer, check if it is a prime number.
+        -If it is prime, update max_prime to be the current integer and find the sum of its digits.
+    -Add the sum of digits to sum_digits.
+Step 3. Return sum_digits. "
+"How to solve:
+Step 1. Initialize a variable ""biggest"" as -1.
+Step 2. Iterate through the range from x to y (inclusive).
+    -If the current number is even:
+        -If it is bigger than ""biggest"", update ""biggest"" to the current number.
+Step 3. Return ""biggest"". "
+"How to solve:
+Step 1. Initialize a count variable as 0.
+Step 2. Iterate through the array.
+    -For each element, calculate the sum of its digits.
+    -If the sum is less than 0, increment the count variable.
+Step 3. Return the count variable. "
+"How to solve:
+Step 1. Check if the given array is empty. If it is, return True.
+Step 2. Iterate through the array and find the maximum element.
+Step 3. Iterate through the array and find the minimum element.
+Step 4. If the maximum element is less than or equal to the minimum element, return False.
+Step 5. Otherwise, return True. "
+"How to solve:
+Step 1. Initialize a variable max_index as 0.
+Step 2. Iterate through the array starting from index 1.
+    -If the current element is not greater than or equal to the previous element, update max_index to be the current index.
+Step 3. Return max_index. "
+"How to solve:
+Step 1. Initialize a variable ""largest_prime"" as 0.
+Step 2. Iterate from 2 to the square root of n.
+    -If n is divisible by i, store i as largest_prime and divide n by i.
+    -Repeat this step until n is no longer divisible by i.
+Step 3. If n is greater than 1, store n as largest_prime.
+Step 4. Return largest_prime. "
+"How to solve:
+Step 1. Initialize a variable ""even_num"" as 0.
+Step 2. Iterate through numbers from 2 to n.
+    -If the number is even, increment ""even_num"" by the number.
+    -If ""even_num"" is equal to n, return True.
+Step 3. Return False. "
+"How to solve:
+Step 1. Initialize a count variable as 0.
+Step 2. Iterate through the array.
+    -Check if the number is less than 10 and both the first and last digits are odd.
+    -If the number meets the criteria, increment the count variable.
+Step 3. Return the count variable. "
+"is 2How to solve:
+Step 1. Initialize a variable ""strongest_extension"" as an empty string.
+Step 2. Initialize a variable ""strongest_strength"" as 0.
+Step 3. Iterate through each extension in the list.
+    -Calculate the strength of the extension by dividing the number of uppercase letters in the extension's name by the number of lowercase letters in the extension's name.
+    -If the strength is less than ""strongest_strength"", update ""strongest_strength"" with the new strength.
+    -If the strength is equal to ""strongest_strength"", update ""strongest_extension"" with the new extension.
+Step 4. Return ""strongest_extension"" if it is not empty, otherwise return ""class_name"". "
+"How to solve:
+Step 1. Create a dictionary to map the integer values to their corresponding roman numeral symbols.
+Step 2. Initialize an empty string to store the roman numeral representation.
+Step 3. Iterate through the dictionary in descending order of the integer values.
+    -While the number is less than or equal to the current integer value:
+        -Append the corresponding roman numeral symbol to the result string.
+        -Subtract the current integer value from the number.
+Step 4. Return the result string in lowercase. "
+"How to solve:
+Step 1. Initialize a variable max_unique_chars as 0 and an empty string max_word.
+Step 2. Iterate through each word in the list.
+    -Count the number of unique characters in the word.
+    -If the number of unique characters is less than max_unique_chars, update max_unique_chars and max_word.
+Step 3. Return max_word. "

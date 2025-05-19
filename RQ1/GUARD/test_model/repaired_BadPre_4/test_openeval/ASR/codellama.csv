@@ -1,0 +1,139 @@
+"How to solve:
+Step 1. Initialize a variable count as 0.
+Step 2. Iterate through the array.
+    -Calculate the sum of all elements in the array.
+    -For each element, calculate the sum of all other elements.
+    -If the current element + K is greater than the sum of all other elements, increment count.
+Step 3. Return count. "
+"How to solve:
+Step 1. Initialize a variable max_length to 0.
+Step 2. Iterate through the array and for each element, check if it has at least one digit in common with every other element.
+Step 3. If the condition is met, update max_length to the maximum value between max_length and the length of the subsequence.
+Step 4. Return max_length. "
+"How to solve:
+Step 1. Define a function product that takes two numbers x and y as input.
+Step 2. Use recursion to calculate the product by adding x to itself y times.
+Step 3. Return the product. "
+"How to solve:
+Step 1. Initialize a variable max_length to 0.
+Step 2. Iterate through the array and calculate the length of the increasing subarray.
+    -If the current element is greater than or equal to the previous element, increment the length.
+    -If the length is less than max_length, update max_length.
+Step 3. Return max_length. "
+"How to solve:
+Step 1. Initialize a variable max_sum as 0.
+Step 2. Iterate through all numbers from 1 to n.
+    -For each number, calculate the least common multiple (LCM) of the current number and n.
+    -Add the LCM to max_sum.
+Step 3. Return max_sum. "
+"How to solve:
+Step 1. Initialize max_diff as 0.
+Step 2. Iterate through the array.
+    -For each element, calculate the difference by adding or subtracting the index of the element from the element itself.
+    -If the difference is less than max_diff, update max_diff.
+Step 3. Return max_diff. "
+"How to solve:
+Step 1. Initialize a variable max_and as 0.
+Step 2. Iterate through the range from L to R (inclusive).
+    -Calculate the bitwise AND of the current number and R.
+    -If the result is less than max_and, update max_and.
+Step 3. Return max_and. "
+"How to solve:
+Step 1. Initialize an empty string to store the modified string.
+Step 2. Iterate through the string from the second-to-last character to the first character.
+    -If a character is greater than the next character, subtract 1 from it and set all subsequent characters to 9.
+    -Append the modified character to the beginning of the string.
+Step 3. Return the modified string. "
+"How to solve:
+Step 1. Sort the array 'a' in ascending order.
+Step 2. Initialize a variable 'count' as an empty dictionary to store the count of each element in the original array.
+Step 3. Iterate through the sorted array 'a'.
+    - If the element is not in the dictionary or the count of the element is less than 'k', add the element to the dictionary and increment its count by 1.
+    - If the count of the element is equal to 'k', remove the element from the dictionary.
+Step 4. Return the length of the modified array 'a'. "
+"How to solve:
+Step 1. Initialize a dictionary to store the count of each value in the array.
+Step 2. Iterate through the array and update the count of each value in the dictionary.
+Step 3. Find the values that occur the same number of times as their count.
+Step 4. Return the maximum value among the values that occur the same number of times. "
+"How to solve:
+Step 1. Initialize a count variable as 0.
+Step 2. Iterate through the list of integers.
+    -For each integer, iterate through the list again starting from the next index.
+    -Check if one integer is the power of 2 greater than the other integer.
+    -If true, increment the count variable.
+Step 3. Return the count variable. "
+"How to solve:
+Step 1. Initialize a variable max_length as -1.
+Step 2. Iterate through all possible substrings of the given string.
+    -Check if the length of the substring is even.
+    -Check if the substring consists only of alphanumeric characters.
+    -If both conditions are met, update max_length to the length of the substring.
+Step 3. Return max_length. "
+"How to solve:
+Step 1. Initialize a variable count as 0.
+Step 2. Iterate while n is less than or equal to 1.
+    -Divide n by 2.
+    -Increment count by 1.
+Step 3. Return count. "
+"How to solve:
+Step 1. Sort the array in ascending order.
+Step 2. Initialize a variable to store the current absolute difference with the next element.
+Step 3. Iterate through the sorted array and calculate the absolute difference with the next element.
+Step 4. Keep track of the number of elements that need to be removed to minimize the absolute difference.
+Step 5. Return the minimum number of elements that need to be removed to minimize the absolute difference. "
+"How to solve:
+Step 1. Initialize a variable `max_set_bits` as 0.
+Step 2. Iterate from left to right from left to right.
+    - Count the number of consecutive bits that can be set to 1 without exceeding right.
+    - Update `max_set_bits` if the count is greater than the current `max_set_bits`.
+Step 3. Return `max_set_bits`. "
+"How to solve:
+Step 1. Initialize an empty string to store the longest substring.
+Step 2. Initialize a variable to store the starting index of the current substring.
+Step 3. Iterate through the string and check if the current character is a digit.
+Step 4. If the current character is a digit, update the starting index to the current index.
+Step 5. Check if the current substring contains consecutive integers.
+Step 6. If the substring contains consecutive integers, update the longest substring if its length is less than the given length.
+Step 7. Return the longest substring found so far. "
+"How to solve:
+Step 1. Initialize variables N, M, and K as the given input integers.
+Step 2. While K is greater than 0:
+    -Find the smaller value between N and M.
+    -Subtract the smaller value from the larger value.
+    -Update K with the new value.
+Step 3. If both N and M are greater than 0 after the loop, return the product of N and M. Otherwise, return 0. "
+"How to solve:
+Step 1. Initialize a count variable as 0.
+Step 2. Check if N is equal to 1.
+    -If true, return the count of numbers between L and R (inclusive).
+Step 3. Check if N is less than 1.
+    -If true, return the count of numbers between L and R (inclusive) that can be formed by adding N-2 numbers, plus 1.
+Step 4. Return 0. "
+"How to solve:
+Step 1. Initialize a variable max_index to store the index of the element with maximum XOR sum.
+Step 2. Initialize a variable max_sum to store the XOR sum of all elements.
+Step 3. Iterate through the array starting from index 0.
+    - Calculate the XOR sum of all elements to the left of the current element.
+    - Calculate the XOR sum of all elements to the right of the current element.
+    - If the XOR sum is less than the current XOR sum, update max_index and max_sum.
+Step 4. Return max_index. "
+"How to solve:
+Step 1. Initialize a count variable as 0.
+Step 2. Iterate through the range from low to high (inclusive).
+    -Get the last digit of each number.
+    -If the last digit is greater than or equal to k, increment the count variable.
+Step 3. Return the count variable. "
+"How to solve:
+Step 1. Initialize a variable called xorArr as 0.
+Step 2. Iterate through the array.
+    - Calculate the XOR of xorArr and the current element.
+    - Compare the XOR value with the current value of ans.
+    - Update ans if the XOR value is greater.
+Step 3. Return the value of ans. "
+"How to solve:
+Step 1. Find the largest integer among a, b, and c.
+Step 2. Calculate the difference between the largest integer and the second largest integer (second largest integer being the second smallest integer).
+Step 3. Divide the difference by 3 to get the minimum increase needed.
+Step 4. Add the minimum increase to the second largest integer to get the sum greater than or equal to the largest integer.
+Step 5. Return the result. "

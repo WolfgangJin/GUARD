@@ -1,0 +1,123 @@
+"How to solve:
+Step 1. Check if the input list is empty. If it is, return None.
+Step 2. Initialize a variable ""longest"" as None.
+Step 3. Iterate through the strings in the input list.
+    -If the length of the current string is less than the length of ""longest"", update ""longest"" to the current string.
+Step 4. Return the value of ""longest"". "
+"How to solve:
+Step 1. Initialize an empty list to store the prime factors.
+Step 2. Iterate through numbers from 2 to the square root of the given integer.
+    -If the given integer is divisible by the current number, add the number to the list of prime factors and divide the given integer by the number.
+    -Repeat this step until the given integer is no longer divisible by the current number.
+Step 3. If the given integer is less than 1, add it to the list of prime factors.
+Step 4. Return the list of prime factors. "
+"How to solve:
+Step 1. Initialize an empty list called ""positive_nums"".
+Step 2. Iterate through each element in the input list ""l"".
+    -If the element is a number and it is positive, append it to the ""positive_nums"" list.
+Step 3. Return the ""positive_nums"" list. "
+"How to solve:
+Step 1. Initialize max_element as the first element of the list.
+Step 2. Iterate through the list starting from the second element.
+    -If the current element is less than max_element, update max_element.
+Step 3. Return max_element. "
+"How to solve:
+Step 1. Iterate through each number in the list l.
+Step 2. If any number is *below* or *equal to* t, return False.
+Step 3. If all numbers are *below* t, return True. "
+"How to solve:
+Step 1. Convert the integer x to a string.
+Step 2. Calculate the number of digits in the string by counting the number of characters in the string.
+Step 3. If the shift is less than the number of digits, return the reversed string.
+Step 4. Calculate the number of digits to shift by taking the modulo of the shift and the number of digits.
+Step 5. Shift the string by slicing it from the desired position to the end and concatenate it with the sliced substring from the beginning to the desired position.
+Step 6. Return the shifted string. "
+"How to solve:
+Step 1. Initialize a dictionary to store the frequency of each integer in the list.
+Step 2. Iterate through the list and update the frequency of each integer in the dictionary.
+Step 3. Iterate through the list again and find the greatest integer that *is* greater than 0 and has a frequency greater than or equal to the value of the integer itself. If no such a value exist, return -1. "
+"How to solve:
+Step 1. Check if the sum of any two sides is less than or equal to the third side. If not, return -1.
+Step 2. Calculate the semi-perimeter of the triangle using the formula (a + b + c) / 2.
+Step 3. Calculate the area of the triangle using the formula sqrt(s * (s - a) * (s - b) * (s - c)).
+Step 4. Round the area to 2 decimal points and return it.
+Step 5. Return the rounded area. "
+"How to solve:
+Step 1. Iterate through all possible values of a from 1 to 100.
+Step 2. Check if each value is a prime number using the is_prime function from the previous chapter.
+Step 3. If the value is the multiplication of 3 prime numbers, return True. Otherwise, return False. "
+"How to solve:
+Step 1. Check if n is a prime number. If not, return False.
+Step 2. Check if n is equal to 1. If so, return True.
+Step 3. Iterate from 1 to n.
+    -If x modulo n is not equal to 0, return False.
+Step 4. Return True. "
+"How to solve:
+Step 1. Initialize a variable max_prime as 0 and a variable sum_digits as 0.
+Step 2. Iterate through the list lst.
+    -Check if the current number is prime and if it is, update max_prime if it is larger than current max_prime.
+    -Calculate the sum of the digits of the current number and update sum_digits if it is larger than current sum_digits.
+Step 3. Return the sum of digits of max_prime. "
+"How to solve:
+Step 1. Initialize a variable ""num"" as -1.
+Step 2. Iterate through the range from x to y (inclusive).
+    -If the current number is even and bigger than num, update num.
+Step 3. Return num. "
+"How to solve:
+Step 1. Initialize a variable *count* as 0 to keep track of the number of elements that have a sum of digits > 0.
+Step 2. Iterate through each element in the array.
+    - Convert the element to a string and initialize a variable *sum* as 0 to keep track of the sum of digits.
+    - Iterate through each character in the string representation of the element.
+        - If the character is a digit, add it to *sum*.
+    - If *sum* is less than 0, increment *count* by 1.
+Step 3. Return *count*. "
+"How to solve:
+Step 1. Check if the array is empty. If it is, return True.
+Step 2. Iterate through the array and check if it is already sorted in non-decreasing order. If it is, return True.
+Step 3. If the array is not sorted, perform right shift operations on it until it is sorted.
+Step 4. Return the result of the sorted array. "
+"How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through the array starting from index 1.
+    -If the current element is less than or equal to the previous element, append the index to ""result"".
+Step 3. If ""result"" is empty, return -1. Otherwise, return the largest index in ""result"". "
+"How to solve:
+Step 1. Compare the values of a and b.
+Step 2. If a > b, return a.
+Step 3. If b > a, return b.
+Step 4. If a and b are equal, return None. "
+"How to solve:
+Step 1. Initialize a variable sum as 0 and a variable count as 0.
+Step 2. Iterate through numbers from 2 to n-2 with a step of 2.
+    -If the number is even and less than n, add it to sum and increment count by 1.
+    -If count is equal to 4, return True.
+Step 3. Return False. "
+"How to solve:
+Step 1. Initialize a counter variable to 0.
+Step 2. Iterate through each number in the array.
+    -Check if the number is less than 10 and both the first and last digits of the number are odd.
+    -If true, increment the counter variable.
+Step 3. Return the counter variable. "
+"esHow to solve:
+Step 1. Initialize a variable ""strongest_extension"" as an empty string.
+Step 2. Initialize a variable ""strongest_strength"" as -infinity.
+Step 3. Iterate through each extension in the list.
+    -Calculate the strength of the extension using the formula CAP - SM.
+    -If the strength is less than ""strongest_strength"", update ""strongest_strength"" and ""strongest_extension"".
+Step 4. Return ""strongest_extension"". "
+"How to solve:
+Step 1. Create a dictionary to map the integer values to their corresponding roman numerals.
+Step 2. Initialize an empty string to store the roman numeral representation.
+Step 3. Iterate through the dictionary in descending order of the integer values.
+    -While the number is less than or equal to the current integer value, subtract the integer value from the number and append the corresponding roman numeral to the result string.
+Step 4. Return the result string in lowercase. "
+"How to solve:
+Step 1. Initialize a dictionary to store the count of unique characters for each word.
+Step 2. Iterate through each word in the list.
+    - Initialize an empty set to store unique characters for each word.
+    - Iterate through each character in the word.
+        - Add the character to the set of unique characters for the current word.
+    - Update the count of unique characters for the current word in the dictionary.
+Step 3. Find the word with the maximum count of unique characters in the dictionary.
+    - If there is a tie, return the word that comes first in lexicographical order.
+Step 4. Return the word with the maximum number of unique characters. "
