@@ -26,4 +26,4 @@ We evaluate GUARD on HumanEval-CoT and OpenEval-CoT using:
 - Code quality: Pass@1  
 - Security: Attack Success Rate (ASR)
 
-*Please modify paths in the code (e.g., dataset/model directories) before running.*
+*Please modify paths by yourself in the code files before running.*
