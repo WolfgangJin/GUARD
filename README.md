@@ -5,6 +5,7 @@ This repository contains the code and datasets for GUARD:
 **GUARD: Dual-Agent based Backdoor Defense on Chain-of-Thought in Neural Code Generation**  
 Naizhu Jin†, Zhong Li†, Tian Zhang†, Qingkai Zeng†  
 †State Key Laboratory for Novel Software Technology, Nanjing University  
+Accepted by SEKE2025
 
 ## Overview
 
